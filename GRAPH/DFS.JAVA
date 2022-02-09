@@ -1,26 +1,22 @@
 class Solution {
-    ArrayList<Integer> visited = new ArrayList<Integer>(); 
-    ArrayList<Integer> ans = new ArrayList<Integer>();
-    Stack<Integer> st = new Stack<Integer>(); 
-    public void solveDfs(int src ,int V, ArrayList<ArrayList<Integer>> adj)
+    public void solveDfs(int src , ArrayList<ArrayList<Integer>> adj,ArrayList<Integer> visited,ArrayList<Integer> ans)
     {
-        st.push(src);
         visited.add(src);
         ans.add(src);
         for(int j : adj.get(src))
         {
             if(!visited.contains(j))
             {
-                st.push(j);
-                solveDfs(j,V,adj);   
+                solveDfs(j,adj,visited,ans);   
             }
         }
-        st.pop();
     }
     // Function to return a list containing the DFS traversal of the graph.
     public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
         // Code here
-        solveDfs(0,V,adj);
+        ArrayList<Integer> visited = new ArrayList<Integer>(); 
+        ArrayList<Integer> ans = new ArrayList<Integer>();
+        solveDfs(0,adj,visited,ans);
         return ans;
         
     }
