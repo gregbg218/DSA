@@ -12,7 +12,8 @@ class Solution {
             for(int i : graph[src])
                 dfs(i,dest,ans,path,graph);
         }
-        path.remove(path.size()-1);
+        // path.remove(path.size()-1);
+        path.remove(Integer.valueOf(src));
             
     }
     
