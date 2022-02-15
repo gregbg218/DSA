@@ -1,6 +1,6 @@
 class Solution
 {
-    //Function to sort an array using quick sort algorithm.
+    
     static void swap(int arr[], int i, int j)
     {
         int temp = arr[i];
@@ -11,7 +11,7 @@ class Solution
     {
         if(low<high)
         {
-        int i=low , j=high , pivot=low;
+        int i=low , j=high , pivot=low;             //PIVOT CAN BE ANY ELEMENT NOT COMPULSORY TO BE LOW
         while(i<j)
         {
             while(arr[i]<=arr[pivot] && i<high)
@@ -27,7 +27,7 @@ class Solution
                 swap(arr,i,j);
             }
         }
-        swap(arr,pivot,j);
+        swap(arr,pivot,j); //BECOS J IS NOW AT THE MIDDLE INDEX
         quickSort(arr,low,j-1);
         quickSort(arr,j+1,high);
         }
