@@ -3,19 +3,21 @@ class Solution
   static void insert(int arr[],int i)
   {
        // Your code here
-       for(int j = i-1 ; j>=0 ; j--)
+       int temp = arr[i];
+       int j = i-1;
+       for(;j>=0 ; j--)
        {
-           if(arr[j]>arr[j+1])
+           if(arr[j]>temp)
            {
-               int temp = arr[j+1];
                arr[j+1] = arr[j];
-               arr[j] = temp;
            }
            else
            {
                break;
            }
+        
        }
+        arr[j+1] = temp;  // THIS HANDLES BOTH FINDING A LESSER ELEMENT AND J IS LESS THAN 0
   }
   //Function to sort the array using insertion sort algorithm.
   public void insertionSort(int arr[], int n)
