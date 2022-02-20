@@ -5,7 +5,7 @@ class Solution
        // Your code here
        int temp = arr[i];
        int j = i-1;
-       for(;(j>=0 && arr[j]>temp); j--) //LOOK AT THE FOR LOOP
+       for( ; (j>=0 && arr[j]>temp) ; j--) //LOOK AT THE FOR LOOP
        {           
                arr[j+1] = arr[j];        
        }
