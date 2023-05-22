@@ -24,8 +24,8 @@ class Solution {
         {
             ArrayList<Integer> level = new ArrayList<Integer>(); 
             int levelLength= treeNodesQueue.size();   
-            for(int i=0;i<levelLength;i++)
-            {
+            for(int i=0;i<levelLength;i++)                      // This is done so that we can seperate the nodes in levels and it wont go on infiniteley becos the level length is calculated only once
+            {                                                   // Also the level length is bascially the number of parent nodes
                 TreeNode previousNode = treeNodesQueue.poll();
                 // System.out.println(previousNode.val);
                 level.add(previousNode.val);
@@ -39,7 +39,7 @@ class Solution {
                     treeNodesQueue.add(previousNode.right);
                 }
             }
-            if(counter%2!=0)
+            if(counter%2!=0)                                // for zigzag pattern
                 Collections.reverse(level);
             result.add(level);
             counter++;    
