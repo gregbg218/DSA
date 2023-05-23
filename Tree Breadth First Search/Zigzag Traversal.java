@@ -26,6 +26,7 @@ class Solution {
             int levelLength= treeNodesQueue.size();   
             for(int i=0;i<levelLength;i++)                      // This is done so that we can seperate the nodes in levels and it wont go on infiniteley becos the level length is calculated only once
             {                                                   // Also the level length is bascially the number of parent nodes
+                                                                // We did this inner for loop becos here we need level by level data but usually in bfs we dont have inner for loop
                 TreeNode previousNode = treeNodesQueue.poll();
                 // System.out.println(previousNode.val);
                 level.add(previousNode.val);
