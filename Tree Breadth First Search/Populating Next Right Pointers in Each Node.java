@@ -41,7 +41,7 @@ class Solution {
                 cur=cur.next;
             else
             {
-                cur=next;
+                cur=next;           //To check if current node is at the end of the level
                 next=next.left;       // next pointer is always on the starting node of each level or always on the leftmost node on each level it never goes on any other node
             }
             
