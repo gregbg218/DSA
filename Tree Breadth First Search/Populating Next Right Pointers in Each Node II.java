@@ -21,6 +21,9 @@ class Node {
 };
 */
 
+// Basically th whole game is of travelling through a level using "current" node and connecting all its children using "prev" node and also updating
+// "prev" node value
+
 class Solution {
     public Node connect(Node root) {
         if (root == null)
@@ -73,5 +76,4 @@ class Solution {
     }
 }
 
-// Basically th whole game is of travelling through a level using "current" node and connecting all its children using "prev" node and also updating
-// "prev" node value
+
