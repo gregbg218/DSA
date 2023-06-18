@@ -9,6 +9,7 @@ public class Solution {
         if (node == null || node.val != arr[index]) {
             return false;
         }
+        //There is no checking to see if the value in the tree is equal to the value of the array as only checking for false is enough
         
         // If it's the last element in the array and the node is a leaf, return true for stopping the search
         if (index == arr.length - 1 && node.left == null && node.right == null) {
