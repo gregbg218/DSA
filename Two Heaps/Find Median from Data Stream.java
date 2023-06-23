@@ -50,6 +50,13 @@ class MedianFinder {
     }
 }
 
+/*The other way to implement the MedianFinder class is by using a simple sorted list to maintain the elements. Whenever a new number is added,
+it is inserted at the correct position in the sorted list to maintain the order.
+In terms of time complexity comparisons, the heap-based approach is more efficient. Adding a number to a heap takes O(log n) time, and finding the median 
+takes constant time. In contrast, using a sorted list takes O(n) time for adding a number and constant time for finding the median. 
+Therefore, the heap-based approach has a better overall time complexity for both operations.
+*/
+
 /**
  * Your MedianFinder object will be instantiated and called as such:
  * MedianFinder obj = new MedianFinder();
