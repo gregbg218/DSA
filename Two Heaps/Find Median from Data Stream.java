@@ -10,24 +10,8 @@ class MedianFinder {
     
     public void addNum(int num) {
         maxHeap.add(num);
-
-        if(maxHeap.size()!=0 && minHeap.size()!=0 && maxHeap.peek()>minHeap.peek())
-        {
-            int exchangeElement = maxHeap.poll();
-            minHeap.add(exchangeElement);
-        }
+        balanceHeaps();
         
-        if(maxHeap.size()-minHeap.size()==2) // If difference is 2 then it means    total number of elements is even and there's an uneven distribution. Also it cant be more than 2 as all checks are done per 1 element addition. Also if difference is 1 then its fine
-        {
-            int exchangeElement = maxHeap.poll();
-            minHeap.add(exchangeElement);
-        }
-
-        if(minHeap.size()-maxHeap.size()==2)
-        {
-            int exchangeElement = minHeap.poll();
-            maxHeap.add(exchangeElement);
-        }
     }
     
     public double findMedian() {
@@ -46,6 +30,27 @@ class MedianFinder {
         else
         {
             return (double) minHeap.peek();
+        }
+    }
+
+    public void balanceHeaps()
+    {
+        if(maxHeap.size()!=0 && minHeap.size()!=0 && maxHeap.peek()>minHeap.peek())
+        {
+            int exchangeElement = maxHeap.poll();
+            minHeap.add(exchangeElement);
+        }
+        
+        if(maxHeap.size()-minHeap.size()==2) // If difference is 2 then it means    total number of elements is even and there's an uneven distribution. Also it cant be more than 2 as all checks are done per 1 element addition. Also if difference is 1 then its fine
+        {
+            int exchangeElement = maxHeap.poll();
+            minHeap.add(exchangeElement);
+        }
+
+        if(minHeap.size()-maxHeap.size()==2)
+        {
+            int exchangeElement = minHeap.poll();
+            maxHeap.add(exchangeElement);
         }
     }
 }
