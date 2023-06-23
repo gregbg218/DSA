@@ -19,7 +19,7 @@ class Solution {
         if(root!=null) 
             treeNodesQueue.add(root);
         ArrayList<List<Integer>> result = new ArrayList<List<Integer>>();
-        int counter=0;
+        int counter=0; // counter is for tracking levels if level number is odd then we need to reverse the level values.
         while(treeNodesQueue.size()!=0)
         {
             ArrayList<Integer> level = new ArrayList<Integer>(); 
