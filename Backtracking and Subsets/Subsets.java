@@ -19,7 +19,8 @@ class Solution {
         subset.add(nums[i]);
         createSubsetsByDFS(i+1,nums);
 
-        subset.remove(Integer.valueOf(nums[i]));
+        subset.remove(Integer.valueOf(nums[i]));  // when we come to this point we already know that recursion has taken us back from a particular
+                                                  // node to its parent node and now to explore the other sibling node we remove the value . 
         createSubsetsByDFS(i+1,nums);
     }
 }
