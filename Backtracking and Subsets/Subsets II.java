@@ -5,7 +5,7 @@ class Solution {
 
     public List<List<Integer>> subsetsWithDup(int[] nums) 
     {
-        Arrays.sort(nums);
+        Arrays.sort(nums); // we have to do this as only then will same elements come side by side
         createSubsetsByDFS(0,nums);
         return result;
         
