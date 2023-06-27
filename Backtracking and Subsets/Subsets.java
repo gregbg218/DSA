@@ -2,7 +2,7 @@ class Solution {
     List<List<Integer>> result = new ArrayList<>();
     List<Integer> subset = new ArrayList<>();
     public List<List<Integer>> subsets(int[] nums) {
-        
+      // Here we dont sort as all elements are unique so sorting is only required in subsets with duplicates  
         createSubsetsByDFS(0,nums);
         return result;
     }
