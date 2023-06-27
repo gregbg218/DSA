@@ -22,9 +22,9 @@ class Solution {
         createSubsetsByDFS(i + 1, nums);
 
         subset.remove(subset.size() - 1);
-        while (i+1< nums.length && nums[i+1]==nums[i]) {
+        while (i+1< nums.length && nums[i]==nums[i+1]) {
             i++;
-        }
+        }  // when the value of i+1=nums.length we wont go into the while loop and so this case is handled by the if condition above(base condition)
         createSubsetsByDFS(i+1, nums);
     }
 }
