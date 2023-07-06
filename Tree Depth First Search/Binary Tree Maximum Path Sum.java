@@ -35,7 +35,8 @@ class Solution {
         rightMax=Math.max(rightMax,0);
 
         if(maxSum<root.val+leftMax+rightMax) // with split
-            maxSum=root.val+leftMax+rightMax; // now if the input is just a single node tree with negative value node like [-6] then comparing it with maxSum gives us the value of the single node
+            maxSum=root.val+leftMax+rightMax; // now if the input is just a single node tree with negative value node like [-6] then comparing it with
+                                              // maxSum gives us the value of the single node
         
 
         return root.val+Math.max(leftMax,rightMax); // without split
