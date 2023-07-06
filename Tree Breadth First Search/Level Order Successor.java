@@ -24,6 +24,7 @@ static Node newNode(int value)
 
 // Function to find the Level Order Successor
 // of a given Node in Binary Tree
+// key is the node whose successor needs to be found 
 static Node levelOrderSuccessor(Node root, Node key)
 {
 	// Base Case
