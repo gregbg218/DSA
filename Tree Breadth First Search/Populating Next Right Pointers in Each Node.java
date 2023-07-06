@@ -36,8 +36,9 @@ class Solution {
             if(cur.next!=null)
                 cur.right.next=cur.next.left;
 
-            
-            if(cur.next!=null)        //To check if current node is at the end of the level
+                                      // As parent node is already connected to its sibling in the previous iteration we only check for that sibling
+                                      // if that sibling is not there then definitely we must be on the end of a level and so we should go on next level
+            if(cur.next!=null)        // and "next" pointer is known for keeping track of next level's first node
                 cur=cur.next;
             else
             {
