@@ -2,7 +2,7 @@ class Solution {
     PriorityQueue<Long> minHeap;
     PriorityQueue<Long> maxHeap;
 
-
+// Aslo this code doesnt work as there is some problem with leetcode about time exceeded on submitting
     public double[] medianSlidingWindow(int[] nums, int k) {
         double[] result= new double[nums.length-k+1];
         minHeap= new PriorityQueue<>();
