@@ -14,17 +14,20 @@ class Solution {
         }
         
         
-        for(int i=0;i+k-1<nums.length;i++)
+        for(int i=0;i+k-1<nums.length;i++)  // i+k-1 where k-1 is used becos when we count we include the initial element and on adding k-1 elements 
+                                               // the total equals to k elements
         {
             // printHeap();
-            result[i]=findMedian();
+            result[i]=findMedian();      
             
             
-            if(i+k==nums.length)
+            if(i+k!=nums.length)  // the i+k part below isnt checked by the for loop as there its i+k-1 so we have an extra check here
+                addNum(nums[i+k]);    // adding the new element
+                
+            else
                 break;
             
-            removeNum(nums[i]);
-            addNum(nums[i+k]);
+            removeNum(nums[i]);    // removing the old element
         }
         return result;
     }
