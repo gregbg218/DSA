@@ -9,7 +9,7 @@ class Solution {
 
     public void createSubsetsByDFS(int i,int[] nums)
     {
-        if(i>=nums.length)
+        if(i==nums.length)
         {
             result.add(new ArrayList<Integer>(subset));  // we make a copy here as in backtracking we move back from the leaf nodes to reach other leaf nodes
                                                         // so we must not modify the list
