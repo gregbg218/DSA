@@ -2,8 +2,9 @@
 
 class Solution {
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
-        PriorityQueue<int[]> minCapitalAndProfitMinHeap = new PriorityQueue<>((a, b) -> a[0] - b[0]); // This is a comparator
-        PriorityQueue<Integer> maxProfitMaxHeap = new PriorityQueue<>(Collections.reverseOrder()); // The logic for this is explained below
+        PriorityQueue<int[]> minCapitalAndProfitMinHeap = new PriorityQueue<>((a, b) -> a[0] - b[0]); // This is an ascending order
+                                                                                                    //comparator for a custom datatype like object array 
+        PriorityQueue<Integer> maxProfitMaxHeap = new PriorityQueue<>(Collections.reverseOrder()); // reverseOrder() return a comparator
         
         for (int i = 0; i < profits.length; i++) {
             minCapitalAndProfitMinHeap.offer(new int[]{capital[i], profits[i]});  // same as add method only difference is add method gives exception
