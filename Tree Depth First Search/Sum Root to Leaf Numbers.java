@@ -38,7 +38,10 @@ class Solution {
         } 
            
         
-        return sumByDFS(root.left,pathSum)+sumByDFS(root.right,pathSum); 
+        int leftSum=sumByDFS(root.left,pathSum);
+        int rightSum=sumByDFS(root.right,pathSum);   
+        
+        return leftSum+rightSum; 
 
     }
 }
