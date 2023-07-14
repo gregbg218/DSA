@@ -21,7 +21,7 @@ class Solution {
         subset.add(nums[i]);
         createSubsetsByDFS(i + 1, nums);
 
-        subset.remove(subset.size() - 1);
+        subset.remove(Integer.valueOf(nums[i]));
         while (i+1< nums.length && nums[i]==nums[i+1]) {
             i++;
         }  // when the value of i+1=nums.length we wont go into the while loop and so this case is 
