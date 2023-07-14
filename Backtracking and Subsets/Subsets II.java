@@ -22,9 +22,11 @@ class Solution {
         createSubsetsByDFS(i + 1, nums);
 
         subset.remove(Integer.valueOf(nums[i]));
-        while (i+1< nums.length && nums[i]==nums[i+1]) {
+        while (i<nums.length-1 && nums[i]==nums[i+1])  // This condition is here and not before createSubsetsByDFS(i + 1, nums) so that the left part is allowed
+                                                       // to have the first go but right shouldnt be allowed to repeat it
+        {
             i++;
-        }  // when the value of i+1=nums.length we wont go into the while loop and so this case is 
+        }  // when the value of i=nums.length-1 we wont go into the while loop also when i == nums.length then this case is 
            // handled by the if condition above(base condition)
         createSubsetsByDFS(i+1, nums);
     }
