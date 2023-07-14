@@ -13,7 +13,7 @@ class Solution {
 
     public void createSubsetsByDFS(int i,int[] nums)
     {
-        if (i >= nums.length) {
+        if (i == nums.length) {
             result.add(new ArrayList<>(subset));
             return;
         }
