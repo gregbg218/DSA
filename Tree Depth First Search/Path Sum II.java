@@ -32,9 +32,7 @@ class Solution {
         if(root.left==null && root.right==null && root.val==targetSum)// we are subtracting from target sum
         {
             allPaths.add(path);
-            return;
-         
-                
+            return;                
         } 
            
         else
