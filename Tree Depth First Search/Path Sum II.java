@@ -39,7 +39,10 @@ class Solution {
            
         else
         {
-            checkByDFS(root.left,targetSum-root.val,new ArrayList<Integer>(path),allPaths);   // This new arraylist with a copy of the current path ensures that when you add or remove elements from the path list in the left subtree, it does not affect the path list in the right subtree because they are separate instances.Ths the common part of left and right both remain same but only the new changes are added to the new and separate instances   
+            checkByDFS(root.left,targetSum-root.val,new ArrayList<Integer>(path),allPaths);   // This new arraylist with a copy of the current path ensures
+            // that when you add or remove elements from the path list in the left subtree, it does not affect the path list in the right subtree because
+            // they are separate instances.Ths the common part of left and right both remain same but only the new changes are added to the new and
+            // separate instances   
             
             checkByDFS(root.right,targetSum-root.val,new ArrayList<Integer>(path),allPaths);
         }
