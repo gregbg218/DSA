@@ -16,7 +16,7 @@ class Solution {
         
         int count = cumulativePathSum.getOrDefault(currSum - targetSum, 0);                                                                  
         //so the count is just the number of times the difference between cum. sum and target sum has appeared in
-        // the tree or not and if not it returns 0. Also count variable is different for every level of recursion so it keeps on changing.
+        // the list until now and if not it returns 0. Also count variable is different for every level of recursion so it keeps on changing.
 
         cumulativePathSum.put(currSum, cumulativePathSum.getOrDefault(currSum, 0) + 1); // This is for keeping track of the cumulative sums
 
