@@ -14,17 +14,24 @@ class Solution {
         {
             for(int i=startPos;i<givenString.length();i++)
             {
+                System.out.println("i is "+i);
                 printString(tempStr);
                 System.out.println("Pal is from ("+startPos+","+i+")");
                 if(checkPalindrome(startPos,i,givenString))
                 {
                     System.out.print("Adding ("+startPos+","+(i+1)+") ");
                     System.out.println(givenString.substring(startPos,i+1));
+                    System.out.println("going inside recursion");
                     System.out.println();
                     System.out.println();
                     tempStr.add(givenString.substring(startPos,i+1));
+                    
                     backTrackPalindrome(i+1,tempStr,res,givenString);
+                    System.out.println("Removing "+tempStr.get(tempStr.size()-1)+" and i is "+i);
+                    System.out.println();
+                    System.out.println();
                     tempStr.remove(tempStr.size()-1);
+                    
                 }
                 else
                 {
@@ -65,8 +72,8 @@ class Solution {
 }
 
 
-// Notice checkPalindrome is from (3,3) and Adding is from (3,4). Both are same but becos the subString method requires 1 more 
+// Notice checkPalindrome is from (3,3) and Adding is from (3,4). Both are same but becos the subString method requires 1 more letter
 
 
 // What is basically happening is that at each iteration u are adding one letter at a time by checking if the letter at i+1 th index is a
-// palindrome or not
+// palindrome or not. So u are adding new palindrome substrings to already stored palindrome substrings
