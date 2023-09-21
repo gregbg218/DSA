@@ -76,4 +76,6 @@ class Solution {
 
 
 // What is basically happening is that at each iteration u are adding one letter at a time by checking if the letter at i+1 th index is a
-// palindrome or not. So u are adding new palindrome substrings to already stored palindrome substrings
+// palindrome or not. So u are adding new palindrome substrings to already stored palindrome substrings/
+
+// Also "i" in the for loop starts from "startPos" and not from 0 as u want the latest susbtring position
