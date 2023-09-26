@@ -1,30 +1,24 @@
-//https://github.com/gregbg218/DSA/blob/main/Backtracking%20and%20Subsets/subsets.md
-
 class Solution {
-    List<List<Integer>> result = new ArrayList<>();
-    List<Integer> subset = new ArrayList<>();
-
-    
     public List<List<Integer>> subsets(int[] nums) {
-      // Here we dont sort as all elements are unique so sorting is only required in subsets with duplicates  
-        createSubsetsByDFS(0,nums);
-        return result;
+
+        List<List<Integer>> res= new ArrayList<>();
+        subsetBackTrack(nums,res,new ArrayList<Integer>(),0);  // call for null subset
+        return res;
     }
 
-    public void createSubsetsByDFS(int i,int[] nums)
+    public void subsetBackTrack(int[] nums, List<List<Integer>> res, List<Integer> temp, int start)
     {
-        if(i==nums.length)
+        res.add(new ArrayList<Integer>(temp));  // There is no base condition here and this also helps in adding null as a subset
+
+        for (int i=start;i<nums.length;i++)
         {
-            result.add(new ArrayList<Integer>(subset));  // we make a copy here as in backtracking we move back from the leaf nodes to reach other leaf nodes
-                                                        // so we must not modify the list
-            return;
+            temp.add(nums[i]);
+            subsetBackTrack(nums,res,temp,i+1);
+            temp.remove(temp.size()-1);
         }
-
-        subset.add(nums[i]);
-        createSubsetsByDFS(i+1,nums);
-
-        subset.remove(Integer.valueOf(nums[i]));  // when we come to this point we already know that recursion has taken us back from a particular
-                                                  // node to its parent node and now to explore the other sibling node we remove the value . 
-        createSubsetsByDFS(i+1,nums);
     }
 }
+
+
+
+// The subset {} or null is included by the first call that we make in the subsets method with start=0
