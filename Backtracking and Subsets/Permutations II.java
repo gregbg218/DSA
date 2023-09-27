@@ -46,20 +46,29 @@ class Solution {
 // integrated condition)
 // 
 // 
-// i>0 as we dont want to apply "continue" if its the first element
+// a)  i>0 as we dont want to apply "continue" if its the first element
 // 
 // 
 // 
-// nums[i]==nums[i-1] to check if current and previous are same and this condition makes sense only when coupled with 
+// b) nums[i]==nums[i-1] to check if current and previous are same and this condition makes sense only when coupled with 
 // the next condition
 // 
 // 
 // 
-// used[i-1]==false can be exaplained with an example:
-// 
-// nums=[1,1,2]
+// c ) used[i-1]==false can be exaplained with an example:
+//for a set (1a,1b,2)[note "a" and "b" are used to differentiate the same elements]:
 
-// so we can create a tree and generate all possibilities for the 1st "1" 
-// but we dont want to do recreate this same tree for the 2nd "1"
-// even though the 1st "1" has already been give false value in the used array due to backtracking
+// if we remove used[i-1]== false
+// then the condition will be just  "i>0 && nums[i]==nums[i-1]" which will be a blanket ban whenever both are same
+// for example if current perm is (1a,2) and i of for loop stops at 1b then becos nums[i] == nums[i-1] 
+// Hence we add extra condition to prevent skipping in specific cases of nums[i] == nums[i-1]
 
+// so there are 2 ways i>0 && nums[i]==nums[i-1] can go 
+
+// Part A:
+// if the current perm is (1a) and we are looking to add the next 1 (i.e. 1b)
+// if used[i-1] == true then we can go forward and add it
+
+// Part B:
+// but if used[i-1] == false then we know that the current perm is empty and if we go ahead we will get
+// (1,2,1) which we have already gotten in Part A
