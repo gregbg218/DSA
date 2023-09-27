@@ -37,7 +37,8 @@ class Solution {
 // 
 // 1st case : used[i]==true
 // 
-// This is for basic checking by index if it is used or not
+// This is for basic checking by index if it is used or not as in every recursive plunge the for loop starts from i=0 so we need to avoid the already
+// used elements.
 // 
 // 
 // 
