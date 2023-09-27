@@ -22,3 +22,6 @@ class Solution {
 
 
 // The subset {} or null is included by the first call that we make in the subsets method with start=0
+
+// for (int i=start;i<nums.length;i++), Here we begin from the previous_index+1 becos in subsets unlike permutations we dont need all the elements
+// , instead subsets can be half empty or 1 less etc.
