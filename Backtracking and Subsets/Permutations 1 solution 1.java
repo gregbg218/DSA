@@ -25,3 +25,5 @@ private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] 
 
 //  for(int i = 0; i < nums.length; i++), Here we start from 0 index becos unlike subsets 1 problem we need all the elements whereas
 // subset problem can proceed even with half or none of the elements.
+
+// Also becos permutations means moving positions of elements while including all elements
