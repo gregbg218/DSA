@@ -17,6 +17,7 @@ class Solution {
                 System.out.println("i is "+i);
                 printString(tempStr);
                 System.out.println("Pal is from ("+startPos+","+i+")");
+                
                 if(checkPalindrome(startPos,i,givenString))
                 {
                     System.out.print("Adding ("+startPos+","+(i+1)+") ");
