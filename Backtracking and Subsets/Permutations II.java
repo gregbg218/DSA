@@ -60,7 +60,7 @@ class Solution {
 
 // if we remove used[i-1]== false
 // then the condition will be just  "i>0 && nums[i]==nums[i-1]" which will be a blanket ban whenever both are same
-// for example if current perm is (1a,2) and i of for loop stops at 1b then becos nums[i] == nums[i-1] 
+// for example if current perm is (1a) and i of for loop stops at 1b then becos nums[i] == nums[i-1] we cant add
 // Hence we add extra condition to prevent skipping in specific cases of nums[i] == nums[i-1]
 
 // so there are 2 ways i>0 && nums[i]==nums[i-1] can go 
@@ -70,5 +70,5 @@ class Solution {
 // if used[i-1] == true then we can go forward and add it
 
 // Part B:
-// but if used[i-1] == false then we know that the current perm is empty and if we go ahead we will get
-// (1,2,1) which we have already gotten in Part A
+// but if the current index i=1 and temp is empty then we wont add 1b becos while backtracking used[i-1] became false for 1a 
+// so we will skip this number 
