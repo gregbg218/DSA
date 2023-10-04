@@ -14,34 +14,34 @@ class Solution {
         {
             for(int i=startPos;i<givenString.length();i++)
             {
-                System.out.println("i is "+i);
-                printString(tempStr);
-                System.out.println("Pal is from ("+startPos+","+i+")");
+                System.out.println("i is "+i);  // Extra line for debugging ignore
+                printString(tempStr);            // Extra line for debugging ignore
+                System.out.println("Pal is from ("+startPos+","+i+")");   // Extra line for debugging ignore
                 
                 if(checkPalindrome(startPos,i,givenString))
                 {
-                    System.out.print("Adding ("+startPos+","+(i+1)+") ");
-                    System.out.println(givenString.substring(startPos,i+1));
-                    System.out.println("going inside recursion");
-                    System.out.println();
-                    System.out.println();
+                    System.out.print("Adding ("+startPos+","+(i+1)+") ");   // Extra line for debugging ignore
+                    System.out.println(givenString.substring(startPos,i+1));   // Extra line for debugging ignore
+                    System.out.println("going inside recursion");   // Extra line for debugging ignore
+                    System.out.println();   // Extra line for debugging ignore
+                    System.out.println();   // Extra line for debugging ignore
                     
                     tempStr.add(givenString.substring(startPos,i+1));
                     
                     backTrackPalindrome(i+1,tempStr,res,givenString);
                     
-                    System.out.println("Removing "+tempStr.get(tempStr.size()-1)+" and i is "+i);
-                    System.out.println();
-                    System.out.println();
+                    System.out.println("Removing "+tempStr.get(tempStr.size()-1)+" and i is "+i);   // Extra line for debugging ignore
+                    System.out.println();  // Extra line for debugging ignore
+                    System.out.println();  // Extra line for debugging ignore
                     
                     tempStr.remove(tempStr.size()-1);
                     
                 }
                 else
                 {
-                    System.out.println("Not Pal");
-                    System.out.println();
-                    System.out.println();
+                    System.out.println("Not Pal");  // Extra line for debugging ignore
+                    System.out.println();    // Extra line for debugging ignore
+                    System.out.println();    // Extra line for debugging ignore
                 }
             }
         }
@@ -78,8 +78,8 @@ class Solution {
 
 // Notice checkPalindrome is from (3,3) and Adding is from (3,4). Both are same but becos the subString method requires 1 more letter
 
-
-// What is basically happening is that at each iteration u are adding one letter at a time by checking if the letter at i+1 th index is a
-// palindrome or not. So u are adding new palindrome substrings to already stored palindrome substrings/
+// Basic principle is palindrome + palindrome = larger palindrome
+// What is basically happening is that at each iteration u are adding one letter at a time by checking if the letter (at i+1 th index) is a
+// palindrome or not. So u are adding new palindrome substrings to already stored palindrome substrings thus creating larger palindromes
 
 // Also "i" in the for loop starts from "startPos" and not from 0 as u want the latest susbtring position
