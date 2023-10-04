@@ -24,12 +24,15 @@ class Solution {
                     System.out.println("going inside recursion");
                     System.out.println();
                     System.out.println();
+                    
                     tempStr.add(givenString.substring(startPos,i+1));
                     
                     backTrackPalindrome(i+1,tempStr,res,givenString);
+                    
                     System.out.println("Removing "+tempStr.get(tempStr.size()-1)+" and i is "+i);
                     System.out.println();
                     System.out.println();
+                    
                     tempStr.remove(tempStr.size()-1);
                     
                 }
