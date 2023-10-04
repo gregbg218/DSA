@@ -1,6 +1,6 @@
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-        Arrays.sort(nums);
+        Arrays.sort(nums);  /// rememebr sorting is important to group all duplicates side by side
         List<List<Integer>> res= new ArrayList<>();
         List<Integer> tempList= new ArrayList<>();
         backTrackAndSubset(res,tempList,0,nums);
