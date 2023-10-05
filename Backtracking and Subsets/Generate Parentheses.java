@@ -29,4 +29,15 @@ class Solution {
         
     }
 
+
 }
+
+// Instead of a for loop here we are manually adding so there are 2 recursion statements
+// backTrackAndGenerate(openCount+1,closeCount,currStr+"(",pairLimit);
+// backTrackAndGenerate(openCount,closeCount+1,currStr+")",pairLimit);
+
+// Also as it is a string based problem we are not removing anything from the list becos it is removed automatically 
+// as its only normal string adding like currStr+"(" so no need to remove anything
+
+
+// Also there will never be imbalances like this "())" becos always open bracket will be added first
