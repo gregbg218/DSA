@@ -83,4 +83,5 @@ class Solution {
 //             result = mid;
 //             high=mid-1;
 //           }
-// here even if the mid element matches with target then too we can keep on searching for first occurence . Now if the search fails we still have the result stored .
+// here even if the mid element matches with target then too we can keep on searching for first occurence .
+// Now if the search fails we still have the result stored .
