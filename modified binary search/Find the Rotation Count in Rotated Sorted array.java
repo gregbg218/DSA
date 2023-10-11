@@ -1,31 +1,38 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-class Solution {
-    public static int findNumberOfRotations(int[] arr,int size) {
+
+class Solution2 {
+    public static int findNumberOfRotations(int[] arr) {
         int low = 0;
+        int size=arr.length;
         int high= size-1;
         int result=0;
 
+        if(arr[high] >= arr[low])
+            return low;
 
         while(low<=high)
         {
             int mid = low + (high-low)/2;
             int prev = (mid-1+size)%(size);
-            int next = (mid+1)%(size);
 
-            if (arr[prev] > arr[mid] && arr[next] > arr[mid]) {
+
+            if (arr[prev] > arr[mid] ) {
                 result = mid;
                 break;
-            } else if (arr[mid] <= arr[low]) {
-                high = mid - 1;
-            } else if (arr[mid] >= arr[high]) {
+            }
+
+            else if (arr[mid] >= arr[0]) {
                 low = mid + 1;
+            }
+
+            else if(arr[mid] <= arr[high])
+            {
+                high = mid - 1;
             }
         }
 
         return result;
+
 
     }
 
@@ -33,10 +40,9 @@ class Solution {
     public static void main(String[] args)
     {
 
-        int[] arr = { 12 ,13,15, 18,19,1,2, 3, 6, 12  };
+        int[] arr = { 4,5,6,7,0,1,2};
 
-        int size= arr.length;
-        System.out.println("Rotations: "+ findNumberOfRotations(arr,size));
+        System.out.println("Rotations: "+ findNumberOfRotations(arr));
 
     }
 }
