@@ -28,4 +28,6 @@ class Solution {
 
 
 // basically we are doing target-candidates[i] till we reach 0
-//
+//  we are not passing i+1 as we dont want in the next for loop to start from i=0 becos lets take an example
+// [2,3,6,7] and target=7
+// once we do 2,2,3 we dont want to do 2,3,2 while backtracking as repetition is not alllowed
