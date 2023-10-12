@@ -58,3 +58,4 @@ class Solution2 {
 // if we dont find the smallest element in the first mid calculation then we shorten the search area and find mid again
 // To get the new search area we need to find which part of the array is unsorted while taking the mid as the reference point
 
+// In the first else if loop we are comparing with arr[0] becos only 1 comparison is needed to find which part of the array is sorted and unsorted
