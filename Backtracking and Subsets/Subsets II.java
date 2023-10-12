@@ -31,7 +31,7 @@ class Solution {
 // for example if current tempList is (1a) and i of for loop stops at 1b then becos nums[i] == nums[i-1] we cant add
 // Hence we add extra condition to prevent skipping in specific cases of nums[i] == nums[i-1]
 
-// so there are 2 ways i>0 && nums[i]==nums[i-1] can go 
+// so there are 2 ways i>start && nums[i]==nums[i-1] can go 
 
 // Part A:
 // if the current tempList is (1a) and we are looking to add the next 1 (i.e. 1b)
