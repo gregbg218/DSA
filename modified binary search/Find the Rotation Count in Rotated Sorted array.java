@@ -24,11 +24,14 @@ class Solution2 {
             else if (arr[mid] >= arr[0]) {
                 low = mid + 1;
             }
+            // This means left side is sorted but right side is unsorted so search there
+                
 
             else if(arr[mid] <= arr[high])
             {
                 high = mid - 1;
             }
+            // This means right side is sorted but left side is unsorted so search there
         }
 
         return result;
@@ -54,6 +57,4 @@ class Solution2 {
 // previous and next element
 // if we dont find the smallest element in the first mid calculation then we shorten the search area and find mid again
 // To get the new search area we need to find which part of the array is unsorted while taking the mid as the reference point
-// Example : first mid = 4 and elementt is 19
-// now we compare 19 with highest index and since 19>12 we know that left array is unsorted and there we will find our
-// smallest element
+
