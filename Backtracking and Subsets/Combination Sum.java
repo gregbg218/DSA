@@ -15,7 +15,7 @@ class Solution {
             return;
         else
         {
-            for(int i=start;i<candidates.length;i++)
+            for(int i=start;i<candidates.length;i++)  // notice start here is different
             {
                 tempList.add(candidates[i]);
                 backtrackAndSum(remains-candidates[i],res,tempList,candidates,i);  // not i+1 so that we can repeat numbers
