@@ -6,4 +6,7 @@
 This is the generic template of Backtracking 
 
 Usually there is a for loop and each itieration of the for loop forms branches of the tree but sometimes you can generate branches withot for loop by 
-making more than 1 recursion calls
+making more than 1 recursion calls like this:
+
+![image](https://github.com/gregbg218/DSA/assets/72642906/2bb13e26-cb7c-45fd-9bab-4e5ebb2004dc)
+
