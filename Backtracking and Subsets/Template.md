@@ -1,0 +1,9 @@
+![image](https://github.com/gregbg218/DSA/assets/72642906/c3b708f6-8567-4f5d-b3b2-e1e927db5103)
+
+
+
+
+This is the generic template of Backtracking 
+
+Usually there is a for loop and each itieration of the for loop forms branches of the tree but sometimes you can generate branches withot for loop by 
+making more than 1 recursion calls
