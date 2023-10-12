@@ -47,7 +47,7 @@ class Solution {
                 low = mid + 1;
             }
 
-            else if(arr[mid] <= arr[high])
+            else if(arr[mid] <= arr[size-1])
             {
                 high = mid - 1;
             }
