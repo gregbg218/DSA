@@ -27,7 +27,7 @@ class Solution2 {
             // This means left side is sorted but right side is unsorted so search there
                 
 
-            else if(arr[mid] <= arr[high])
+            else if(arr[mid] <= arr[size-1])
             {
                 high = mid - 1;
             }
