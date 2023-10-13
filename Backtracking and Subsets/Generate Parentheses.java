@@ -9,7 +9,7 @@ class Solution {
 
     public void backTrackAndGenerate(int openCount,int closeCount,String currStr,int pairLimit)
     {
-        if(openCount==closeCount && closeCount==pairLimit)
+        if(openCount==pairLimit && closeCount==pairLimit)
         {
             result.add(currStr);
             return;
