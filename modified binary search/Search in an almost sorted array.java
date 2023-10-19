@@ -47,7 +47,7 @@ class Solution {
     }
 }
 
-// Here the sorting is wrong in a particular sense:
+// Here in the question the sorting is wrong in a particular sense:
 //arr[i] may be present at arr[i+1] or arr[i-1] i.e. arr[i] can only be swapped with either arr[i+1] or arr[i-1].
 //The task is to search for an element in this array.
 // example arr={1,2,3} can be arr={1,3,2} or arr={2,1,3} so 2 can onlyy move 1 ahead or 1 back
