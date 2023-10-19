@@ -7,7 +7,7 @@ class Solution2 {
         int high= size-1;
         int result=0;
 
-        if(arr[high] >= arr[low])
+        if(arr[high] >= arr[low]) // for 0 rotations which means normal sorted array
             return low;
 
         while(low<=high)
