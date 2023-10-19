@@ -76,3 +76,6 @@ class Solution {
 
     }
 }
+
+// Here we first find smallest element and then we know that both right and left sides of this element will have sorted sub arrays 
+// then we search in these sub arrays one by one
