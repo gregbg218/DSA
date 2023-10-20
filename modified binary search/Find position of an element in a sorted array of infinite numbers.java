@@ -34,8 +34,8 @@ class Solution {
             }
             else if(arr[mid]<target)
             {
-                low=high;
-                high=high*2;
+                low=mid+1;
+
 
             }
             else if(arr[mid]==target)
@@ -45,7 +45,7 @@ class Solution {
             }
 
         }
-        return arr[result];
+        return result;
     }
 
 
@@ -53,7 +53,7 @@ class Solution {
     public static void main(String[] args) {
 
         int[] arr = {3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170};
-        int target= 10;
+        int target= 90;
 
 
         int result= infiniteBinarySearch(arr,target);
