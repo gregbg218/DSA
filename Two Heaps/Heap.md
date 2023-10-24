@@ -15,10 +15,14 @@ IF THE LOWERMOST-RIGHTMOST POSITION IS NOT AVAIALBLE THEN THE NEAREST AVAIALBLE 
 
 
 
+
+
 DELETION
 
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/f7c9cada-57ad-48ba-83fa-6835f4bb0c55)
+
+
 
 
 
