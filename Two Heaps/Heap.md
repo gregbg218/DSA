@@ -31,3 +31,8 @@ DELETION
 PEEKING
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/e4439307-0d62-42a7-8af0-b1ccf92e3dd9)
+
+
+
+![image](https://github.com/gregbg218/DSA/assets/72642906/9fe92295-117d-44e7-8d77-fe00500a812d)
+
