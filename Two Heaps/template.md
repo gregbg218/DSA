@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=g9YK6sftDi0&t=1s
 
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/92cb3da0-abda-441c-82b3-1710b0322e5b)
+
 IF THE LOWERMOST-RIGHTMOST POSITION IS NOT AVAIALBLE THEN THE NEAREST AVAIALBLE POSITION TO THAT IS CHOSEN.
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/0e47f498-fee0-4478-8d5a-4fab8d9cbbe3)
