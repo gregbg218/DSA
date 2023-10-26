@@ -40,3 +40,9 @@ class Solution {
         return -1;
     }
 }
+
+
+// In the last 2 else if conditions we are directly returning 1 or return nums.length-2; becos the question states
+// You may imagine that nums[-1] = nums[n] = -∞. 
+//In other words, an element is always considered to be strictly greater than a neighbor that is outside the array.
+// so element at nums[-1] < nums[0] and element at nums[nums.length]<nums[nums.length-1]
