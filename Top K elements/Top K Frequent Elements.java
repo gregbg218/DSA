@@ -12,8 +12,9 @@ class Solution {
         {
             freqMap.put(arr[i], freqMap.getOrDefault(arr[i],0)+1);
         }
+        // Above step finds the frequency of all elements
 
-        Comparator<Integer> freqComparator = new Comparator() 
+        Comparator<Integer> freqComparator = new Comparator()  // So this comparator just uses the particular hashpMp to compare things in that heap
         {
             @Override
             public int compare(Object o, Object t1) {
@@ -32,7 +33,7 @@ class Solution {
             }
         }
 
-        k=k-1;
+        k=k-1;            // just to act as a counter for the array below
         while(minHeap.size()!=0)
         {
             res[k--]=minHeap.poll();
