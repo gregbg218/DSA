@@ -117,7 +117,8 @@ class Solution {
 
 
 
-        res=descBinarySearch(mountainArr,target,peakElement+1,mountainArr.length()-1);
+        res=descBinarySearch(mountainArr,target,peakElement+1,mountainArr.length()-1);  // descending or reverse binary search as to the right the 
+                                                                                        // order is descending
 
         if(res!=-1)
             return res;
