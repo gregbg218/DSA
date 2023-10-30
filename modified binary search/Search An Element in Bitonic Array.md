@@ -10,4 +10,4 @@ It has 1 or more peak elements which is defined as an element greater than all i
 
 On left side of peak element the other elements are in ascending order and on right side in descending order.
 
-No duplicate elements are allowed one after the other i.e. consecutive .
+No duplicate elements are allowed one after the other i.e. consecutive in bitonic arrays.
