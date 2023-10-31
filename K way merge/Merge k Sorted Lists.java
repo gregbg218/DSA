@@ -34,3 +34,7 @@ class Solution {
         return dummyHead.next;
     }
 }
+
+
+// time complexity is Nlog(K) where K is number of sorted lists
+// so at 1 one time there are only K elements in heap
