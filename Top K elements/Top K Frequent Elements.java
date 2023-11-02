@@ -14,7 +14,7 @@ class Solution {
         }
         // Above step finds the frequency of all elements
 
-        Comparator<Integer> freqComparator = new Comparator()  // So this comparator just uses the particular hashpMp to compare things in that heap
+        Comparator<Integer> freqComparator = new Comparator()  // So this comparator just uses the particular hashpMap to compare things in that heap
         {
             @Override
             public int compare(Object o, Object t1) {
