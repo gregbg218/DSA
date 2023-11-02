@@ -44,6 +44,8 @@ class Solution {
     }
 }
 
+// Basically we are storing an element and its mod distance from x in the minHeap and then its simply the logic of k smallest elements
+
 //Comparator logic:
 //a=8 b=3
 
