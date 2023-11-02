@@ -18,7 +18,7 @@ class Solution {
         }
         while (!minHeap.isEmpty())
         {
-            System.out.println(minHeap.remove());
+            System.out.println(minHeap.remove());  // The output here is obtained by printing .
         }
 
     }
@@ -40,4 +40,6 @@ class Solution {
 // Then in this new array the position will be in the range [index-k,index+k]
 // so index=5 and k=3 then positions of the element can be 5,6,7,8 or 4,3,2 
 
+
+// Basically here we are just putting every element and its next k elements in minheap and popping to obtain them in ascending order
 
