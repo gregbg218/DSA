@@ -53,6 +53,12 @@ class Solution {
     }
 }
 
+// repetition is allowed only the sense 
+// eg : nums1 = [1a,1b,2], nums2 = [1c,2,3]
+// Soln : [[1a,1c],[1b,1c]]
+
+// Also in the pair(u,v) u can either be from nums 1 or nums 2 similarly for v
+
 // Basically initially we are filling heap with pairs containing 0 to k-1 indices of nums 1 and only 0 index of nums 2 (nums1[1] and nums2[0] where 
 // i>=0 && i<k)
 // Then we are popping the heap one by one and adding new points with num1 index and num2 index+1 of the popped element in the heap
