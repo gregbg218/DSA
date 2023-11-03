@@ -1,6 +1,7 @@
 
 Note : Unlike Top K elements approach we dont use MaxHeap when top k elements are required or minHeap when smallest k elements are used.
 
+Step 1:
 for (int i = 0; i < matrix.length; i++)
         {
             if (matrix[i] != null)
@@ -11,6 +12,7 @@ for (int i = 0; i < matrix.length; i++)
 
         }
 
+Step 2:
 1st step is to fill the heap with the smallest elements or k introductory elements that we will later pop
 
  while(k!=0)
