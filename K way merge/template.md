@@ -1,13 +1,14 @@
 
-Note : Unlike Top K elements approach we dont use MaxHeap when top k elements are required or minHeap when smallest k elements are used.
+(Note : Unlike Top K elements approach we use MaxHeap when top k elements are required or minHeap when smallest k elements are used.)
 
 Step 1:
 ![image](https://github.com/gregbg218/DSA/assets/72642906/ab70c7dd-45a4-43e6-8f35-80b328b72a84)
 
 
-Step 2:
+
 1st step is to fill the heap with the smallest elements or k introductory elements that we will later pop
 
+Step 2:
 ![image](https://github.com/gregbg218/DSA/assets/72642906/fd8c38cb-b094-46ee-89b6-f38dbf13a40b)
 
 2nd step is to fill the heap with new elements while popping the old (maintaining k elements in heap)
