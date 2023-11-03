@@ -1,6 +1,11 @@
 
 (Note : Unlike Top K elements approach we use MaxHeap when top k elements are required or minHeap when smallest k elements are used.)
 
+
+
+
+
+
 Step 1:
 ![image](https://github.com/gregbg218/DSA/assets/72642906/ab70c7dd-45a4-43e6-8f35-80b328b72a84)
 
