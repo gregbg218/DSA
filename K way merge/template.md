@@ -18,7 +18,7 @@ Step 1:
 
 
 
-1st step is to fill the heap with the smallest elements or k introductory elements that we will later pop
+1st step is to fill the heap with the smallest elements of each array/list or k introductory elements that we will later pop
 
 Step 2:
 
