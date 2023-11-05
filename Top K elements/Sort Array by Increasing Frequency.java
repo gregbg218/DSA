@@ -36,7 +36,7 @@ class Solution {
         {
             int element = maxHeap.poll();
             int freq = freqMap.get(element);
-            while(freq!=0)
+            while(freq!=0)            // As frequency of elements is more than 1, they are going to be repeated
             {
                 arr[k--] = element;
                 freq--;
