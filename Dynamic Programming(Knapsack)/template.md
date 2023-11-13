@@ -41,7 +41,8 @@ Top down
 i and j is not any counter
 
 
-![image](https://github.com/gregbg218/DSA/assets/72642906/2e7dd2ee-f056-4318-a803-daa07bc33bf5)
+![image](https://github.com/gregbg218/DSA/assets/72642906/3316667c-4141-423a-81a7-34a48ed5cc2d)
+
 
 
 Here as we are not using recursion we are making use of the previous value in the matrix to compensate for recursion
