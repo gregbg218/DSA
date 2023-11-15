@@ -45,7 +45,7 @@ i and j is not any counter
 
 
 
-Here as we are not using recursion we are making use of the previous value in the matrix to compensate for recursion
+Here as we are not using recursion we are making use of the previous value(t[n][w-wt[n-1])) in the matrix to compensate for recursion
 
 
 
