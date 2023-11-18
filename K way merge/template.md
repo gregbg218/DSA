@@ -35,7 +35,7 @@ How to identify?
 
 If the problem gives K sorted arrays and asks us to perform a sorted traversal of all the elements of all arrays, we need to think about K-way Merge pattern.
 
-In the context of the K-way Merge pattern and the problem it addresses, "sorted traversal" refers to the process of going through all the elements in K sorted 
+ "sorted traversal" refers to the process of going through all the elements in K sorted 
 arrays in such a way that you visit each element in a sorted order.
 
 When you encounter a problem that involves dealing with multiple lists of sorted items (arrays in this case) and you need to combine them into a single,
