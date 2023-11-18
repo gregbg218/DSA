@@ -61,3 +61,22 @@ class Solution {
 
     }
 }
+
+
+// Initialization:
+// Initially, low is set to 0, and high is set to 1.
+
+// Exponential Increase:
+// The loop condition arr[high] < target checks whether the element at the high index is less than the target.
+// If it is, the search space is increased by setting low = high and doubling the value of high (high = high * 2).
+// This process continues until a range is found where arr[high] is greater than or equal to the target.
+
+// Storing the Range:
+// Once a suitable range is found, the low and high indices are stored in the arr array
+// (arr[0] contains the low index, and arr[1] contains the high index).
+// In simpler terms, the algorithm starts with a small range, and if the element at the higher end of the range
+// is still smaller than the target, it doubles the range.
+// This process continues until the algorithm identifies a range where the element at the high index
+// is greater than or equal to the target.
+// This way, it efficiently identifies an initial search space that likely contains the target element,
+// and then the binary search is performed within that space.
