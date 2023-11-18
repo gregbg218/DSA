@@ -13,12 +13,12 @@ class Solution {
                 {
                     return mid;
                 }
-                else if(nums[mid]<nums[mid-1])
-                {
+                else if(nums[mid]<nums[mid-1])        // Basically we are finding in which direction the greater element most probably might be
+                {                                     // left or right
                     end=mid-1;
                 }
-                else if(nums[mid]<nums[mid+1])
-                {
+                else if(nums[mid]<nums[mid+1])       // Basically we are finding in which direction the greater element most probably might be
+                {                                    // left or right
                     start=mid+1;
                 }
             }
