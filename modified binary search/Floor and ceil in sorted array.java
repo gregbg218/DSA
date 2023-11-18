@@ -95,3 +95,6 @@ class Solution {
 // Floor: The largest number in the array that is less than or equal to 20 is 19, so the floor is 19.
 // Ceiling: There is no number in the array that is greater than or equal to 20, so the ceiling doesn't exist in the array.
 
+
+// Also if the target element is already there in the array then both floor and ceil will be the target itself
+
