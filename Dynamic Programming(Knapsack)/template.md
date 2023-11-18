@@ -51,3 +51,7 @@ Here as we are not using recursion we are making use of the previous value(t[n][
 
 
 
+The above picture becomes this:
+![image](https://github.com/gregbg218/DSA/assets/72642906/dcb22378-e427-47b6-bc7b-41a90e50aab2)
+
+
