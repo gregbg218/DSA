@@ -4,7 +4,7 @@
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/ddd01a1a-75dd-4e52-84c4-180a8cda8963)
 
-
+(the next elemnt should belong to the same list as the popped smallest element)
 
 
 
