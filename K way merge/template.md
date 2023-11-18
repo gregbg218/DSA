@@ -1,5 +1,5 @@
 
-(Note : Unlike Top K elements approach we use MaxHeap when top k elements are required or minHeap when smallest k elements are used.)
+(Note : Unlike Top K elements approach here we use MaxHeap when top k elements are required or minHeap when smallest k elements are used.)
 
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/ddd01a1a-75dd-4e52-84c4-180a8cda8963)
