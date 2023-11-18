@@ -62,3 +62,25 @@ class Solution {
 // Basically initially we are filling heap with pairs containing 0 to k-1 indices of nums 1 and only 0 index of nums 2 (nums1[1] and nums2[0] where 
 // i>=0 && i<k)
 // Then we are popping the heap one by one and adding new points with num1 index and num2 index+1 of the popped element in the heap
+
+
+
+// Example:
+//int[] nums1 = {1, 7, 11};
+//int[] nums2 = {2, 4, 6};
+
+// 1) Filling the Heap:
+// Initially, the heap has pairs: (1, 2), (7, 2), (11, 2) with sums 3, 9, and 13.(2nd element or v is constant)
+
+// 2) Main Loop:
+// It starts removing the pair with the smallest sum, which is (1, 2), and adds it to the result list.
+// Then, it adds a new pair with the same index from nums1 (1) and the next index from nums2 (4) to the heap.
+// The heap now has: (7, 2), (11, 2), (1, 4) with sums 9, 13, and 5.
+// Next, it removes (1, 4) from the heap, adds it to the result list, and adds a new pair (7, 4) to the heap.
+// The heap now has: (7, 2), (11, 2), (7, 4) with sums 9, 13, and 11.
+// Finally, it removes (7, 2) from the heap, adds it to the result list, and adds a new pair (11, 4) to the heap.
+// The heap now has: (11, 2), (11, 4), (7, 4) with sums 13, 15, and 11.
+
+// 3) Returning the Result:
+// The result list now contains the 3 smallest pairs: (1, 2), (1, 4), (7, 2), each with their respective sums.
+
