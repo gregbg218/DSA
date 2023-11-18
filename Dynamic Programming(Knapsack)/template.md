@@ -57,5 +57,5 @@ The above picture becomes this:
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/8d1759d5-dec8-40c5-920c-18e5d94cfa1f)
 
-those 2 circled variables are the only variables that dont remain constant and so w becomes i and n becomes j.
+those 2 circled variables are the only variables that dont remain constant(their changed forms are shown by the arrows) and so w becomes i and n becomes j.
 
