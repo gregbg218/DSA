@@ -1,8 +1,8 @@
 there are 3 ways  
 
-recursion
-memoization
-bottom up approach
+a)recursion
+b)memoization
+c)bottom up approach
 
 
 
