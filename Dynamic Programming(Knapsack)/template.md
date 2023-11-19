@@ -1,9 +1,9 @@
-there are 3 ways
+there are 3 ways  
+
 recursion
 memoization
 bottom up approach
 
-gregt
 
 
 he calls matrix t books call it dp in memoization
