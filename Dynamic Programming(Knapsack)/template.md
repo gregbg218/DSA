@@ -1,7 +1,7 @@
 there are 3 ways
 recursion
 memoization
-top down approach
+bottom up approach
 
 
 he calls matrix t books call it dp in memoization
