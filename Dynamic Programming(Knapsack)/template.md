@@ -12,7 +12,9 @@ c)bottom up approach
 <ins>**Recursion approach base condition**</ins><br />
 https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
 
-from 6:26 to 10:42
+from 6:26 to 10:42<br />
+<br />
+<br />
 
 
 he calls matrix t books call it dp in memoization
