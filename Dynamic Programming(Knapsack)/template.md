@@ -1,6 +1,7 @@
 there are 3 ways  
 
-a)recursion
+a)recursion  
+
 b)memoization
 c)bottom up approach
 
