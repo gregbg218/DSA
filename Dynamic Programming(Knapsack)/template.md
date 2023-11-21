@@ -76,4 +76,4 @@ Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing numbe
 
 
 
-<ins>Recursion approach base condition</ins>
+<ins>**Recursion approach base condition**</ins>
