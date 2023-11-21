@@ -9,6 +9,11 @@ c)bottom up approach
 <br />
 <br />
 
+<ins>**Recursion approach base condition**</ins><br />
+https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
+
+from 6:26 to 10:42
+
 
 he calls matrix t books call it dp in memoization
 
@@ -42,7 +47,7 @@ as arr[0-1] can cause problems
 
 
 
-Top down
+Bottom up approach
 
 i and j is not any counter
 
@@ -70,13 +75,34 @@ Explaination for the above conversion:
 
 those 2 circled variables are the only variables that dont remain constant(their changed forms are shown by the arrows) and so w becomes i and n becomes j.
 
+<ins>**Conversion of recursion to iteration**</ins><br />
+[https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7](https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=12)
 
+from 12:34 to 17:04
 
 Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing number of elements and whether we use current element or not we have to reduce the number of elements left to use
 
 
 
-<ins>**Recursion approach base condition**</ins><br />
-https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
 
-from 6:26 to 10:42
+
+
+
+// When translating a recursive algorithm into an iterative one using a double for loop (outer and inner), 
+// the typical strategy involves starting from the bottom and incrementally progressing upwards. 
+// This stands in contrast to recursion, which usually operates in a top-down manner.
+
+// In recursion, you initiate the process with the initial problem, breaking it down into smaller sub-problems 
+// until you reach the base case. Subsequently, you solve each sub-problem on the way back up.
+
+// Upon converting this recursive approach into an iterative one with a double for loop, the usual practice 
+// is to commence from the smallest sub-problems. Their solutions are then aggregated to address larger problems, 
+// systematically working upwards to tackle the original problem. This constitutes a bottom-up approach.
+
+// The bottom-up approach is often favored for its memory efficiency, as it circumvents the overhead of recursive function calls. 
+// Additionally, it can be more amenable to optimization in terms of time complexity. This strategy is commonly applied 
+// in dynamic programming problems, where solutions to subproblems are leveraged to efficiently solve the overall problem.
+
+
+
+
