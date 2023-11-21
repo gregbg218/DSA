@@ -44,7 +44,7 @@ i and j is not any counter
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/2d4590f1-016e-4ff7-a2c0-62d4bb9e8a73)
 
-
+(Here val[n-1] above means the profit value for the current element but since val array is indexed from 0 we do n-1)
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/3316667c-4141-423a-81a7-34a48ed5cc2d)
 
