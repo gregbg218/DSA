@@ -82,7 +82,9 @@ those 2 circled variables are the only variables that dont remain constant(their
 
 from 12:34 to 17:04
 
-Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing number of elements and whether we use current element or not we have to reduce the number of elements left to use
+
+
+Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing number of elements and whether we use current element or not we have to reduce the number of elements left to use as e move ahead
 
 
 <br />
