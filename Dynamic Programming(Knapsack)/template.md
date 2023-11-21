@@ -2,8 +2,11 @@ there are 3 ways
 
 a)recursion  
 
-b)memoization
-c)bottom up approach
+b)memoization  
+
+c)bottom up approach  
+
+
 
 
 
