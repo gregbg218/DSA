@@ -1,3 +1,8 @@
+//Watch:
+//https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=3
+//https://www.youtube.com/watch?v=fJbIuhs24zQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=4
+//https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=5
+
 there are 3 ways  
 
 a)recursion(also called as top down approach)<br />  
@@ -106,7 +111,6 @@ Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing numbe
 // The bottom-up approach is often favored for its memory efficiency, as it circumvents the overhead of recursive function calls. 
 // Additionally, it can be more amenable to optimization in terms of time complexity. This strategy is commonly applied 
 // in dynamic programming problems, where solutions to subproblems are leveraged to efficiently solve the overall problem.
-
 
 
 
