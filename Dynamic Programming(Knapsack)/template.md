@@ -16,6 +16,13 @@ c)bottom up approach
 <br />
 <br />
 
+<ins>**Common instructions of all 3 aproaches**</ins><br />
+1) Think of a base condition(recursion and memo) or initialization logic(bottom up)<br />
+2) Choice logic(recursion and memo) and main iteration logic(bottom up)<br />
+
+<br />
+<br />
+<br />
 <ins>**Recursion approach base condition**</ins><br />
 https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
 
