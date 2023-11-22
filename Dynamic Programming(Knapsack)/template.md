@@ -5,17 +5,23 @@ https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY
 <br />
 <br />
 <br />
-there are 3 ways  
 
-a)recursion(also called as top down approach)<br />  
-
-b)memoization  
-
-c)bottom up approach  
+The pre-requsite for learning DP is to learn how to solve the problem using recursion(top down approach) first.<br />
+<br />
 <br />
 <br />
 <br />
 
+There are 2 approaches in DP  : <br />
+
+a)memoization  <br />
+This is a modified version of Recursion and so its top down as it uses recursion.<br />
+
+b)bottom up approach  <br />
+<br />
+<br />
+<br />
+<br />
 <ins>**Common instructions of all 3 aproaches**</ins><br />
 1) Think of a Base condition(recursion and memo) or initialization logic(bottom up)<br />
 2) Think of a Choice logic(recursion and memo) and main iteration logic(bottom up)<br />
