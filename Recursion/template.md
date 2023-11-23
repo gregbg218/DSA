@@ -154,5 +154,10 @@ Similarly for 3 call branching :
 ![image](https://github.com/gregbg218/DSA/assets/72642906/cb81ecbe-6d5b-4a16-b698-c4fb6e9ab5ef)
 
 Here time complexity is O(3^N)
+<br />
+<br />
+<br />
+<br />
 
-
+<ins>**Parameterized vs Functional Recursion**</ins><br />
+https://medium.com/@deepakrameshs/parameterized-and-functional-recursion-finding-the-sum-of-1-to-n-in-java-and-python-a800a8127840
