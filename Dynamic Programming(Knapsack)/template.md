@@ -128,4 +128,17 @@ Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing numbe
 // in dynamic programming problems, where solutions to subproblems are leveraged to efficiently solve the overall problem.
 
 
+https://github.com/gregbg218/DSA/blob/main/Recursion/template.md
+
+Yes, you're on the right track! Dynamic programming (DP) and recursion often share the same underlying idea of breaking down a problem into smaller subproblems. The difference lies in how these subproblems are solved and how their solutions are combined.
+
+Recursion and dynamic programming both involve dividing a problem into smaller overlapping subproblems. However, the key distinction is in how these subproblems are solved:
+
+Recursion (Top-Down): In the recursive approach, you start with the original problem and break it down into smaller subproblems. You solve each subproblem by recursively solving smaller instances of the same problem until you reach the base case. This approach can lead to redundant calculations if the same subproblem is solved multiple times.
+
+Dynamic Programming (Bottom-Up): In dynamic programming, you start by solving the smallest subproblems and store their solutions. Then, you use the solutions of smaller subproblems to build up the solution to the original problem. Dynamic programming often involves using an array or table to store intermediate results, avoiding redundant calculations and improving efficiency.
+
+The key idea in dynamic programming is to store the solutions to subproblems in a table and use these solutions to avoid redundant computations. This is often referred to as the "memoization" or "bottom-up" approach. It contrasts with the more straightforward but potentially less efficient "naive" recursive approach.
+
+
 
