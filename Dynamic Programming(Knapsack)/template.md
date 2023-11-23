@@ -112,20 +112,26 @@ Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing numbe
 <br />
 <br />
 <br />
-// When translating a recursive algorithm into an iterative one using a double for loop (outer and inner), 
-// the typical strategy involves starting from the bottom and incrementally progressing upwards. 
-// This stands in contrast to recursion, which usually operates in a top-down manner.
+When translating a recursive algorithm into an iterative one using a double for loop (outer and inner), 
+the typical strategy involves starting from the bottom and incrementally progressing upwards. 
+This stands in contrast to recursion, which usually operates in a top-down manner.
 
-// In recursion, you initiate the process with the initial problem, breaking it down into smaller sub-problems 
-// until you reach the base case. Subsequently, you solve each sub-problem on the way back up.
+In recursion, you initiate the process with the initial problem, breaking it down into smaller sub-problems 
+until you reach the base case. Subsequently, you solve each sub-problem on the way back up.
 
-// Upon converting this recursive approach into an iterative one with a double for loop, the usual practice 
-// is to commence from the smallest sub-problems. Their solutions are then aggregated to address larger problems, 
-// systematically working upwards to tackle the original problem. This constitutes a bottom-up approach.
+Upon converting this recursive approach into an iterative one with a double for loop, the usual practice 
+is to commence from the smallest sub-problems. Their solutions are then aggregated to address larger problems, 
+systematically working upwards to tackle the original problem. This constitutes a bottom-up approach.
 
-// The bottom-up approach is often favored for its memory efficiency, as it circumvents the overhead of recursive function calls. 
-// Additionally, it can be more amenable to optimization in terms of time complexity. This strategy is commonly applied 
-// in dynamic programming problems, where solutions to subproblems are leveraged to efficiently solve the overall problem.
+The bottom-up approach is often favored for its memory efficiency, as it circumvents the overhead of recursive function calls. 
+Additionally, it can be more amenable to optimization in terms of time complexity. This strategy is commonly applied 
+in dynamic programming problems, where solutions to subproblems are leveraged to efficiently solve the overall problem.
+
+
+<br />
+<br />
+<br />
+<br />
 
 
 https://github.com/gregbg218/DSA/blob/main/Recursion/template.md
