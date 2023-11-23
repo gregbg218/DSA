@@ -22,4 +22,4 @@ class Solution {
 
 
 // so our aim is to get the k largest elements in the heap after traversing the whole array and also keeping time complexity low
-// becos kth largelement is k th smallest element when array is in descending order
+// becos kth largest element in ascending order array is k th smallest element when array is in descending order
