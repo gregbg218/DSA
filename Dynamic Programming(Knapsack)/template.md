@@ -150,3 +150,12 @@ So DP also uses the base condition or initialization to get the final solution.
 
 
 
+<ins>**Some common patterns**</ins><br />
+1) Whenever there is a count problem like "Count of subsets with sum equal to X"
+We always add or sum of all the possibilities in both recursion(memo) and DP
+![image](https://github.com/gregbg218/DSA/assets/72642906/5cc19411-bf9f-443c-be9b-48d5b1d36b14)
+
+
+![image](https://github.com/gregbg218/DSA/assets/72642906/2d65a47a-c747-4c67-b3bd-6e16ce8aec9b)
+
+
