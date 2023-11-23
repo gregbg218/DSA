@@ -15,8 +15,8 @@ class Solution {
 
         while(start<=end){
             int mid=(start+end)/2;
-            int midElement=mountainArr.get(mid);   // Becos the problem constraints allows only 100 times
-                                                   // mountainArr.get()
+            int midElement=mountainArr.get(mid);   // Becos the leetcode problem constraints allows only 100 times
+                                                   // to use mountainArr.get() function
 
             if(mid>0 && mid<mountainArr.length()-1)
             {
