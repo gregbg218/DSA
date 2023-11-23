@@ -69,3 +69,45 @@ Let's break it down:
 
 Remember, this template can be adapted for different problems by adjusting the base case condition, modifying the parameter appropriately, and combining the results in a way that 
 makes sense for the specific task you're working on.
+
+
+In some cases, the return value in the recursive case might be omitted if the purpose of the recursion is to perform some action rather than explicitly computing and returning a value.
+
+Here's an example to illustrate:
+
+```java
+public class RecursiveExample {
+
+    public static void recursiveFunction(int count) {
+        // Base case
+        if (count <= 0) {
+            return;
+        }
+
+        // Recursive case
+        else {
+            System.out.println("Count: " + count);
+
+            // Recursive call with a smaller count
+            recursiveFunction(count - 1);
+
+            // No explicit return in this case
+        }
+    }
+
+    public static void main(String[] args) {
+        // Example usage of the recursive function
+        int initialCount = 5;
+        recursiveFunction(initialCount);
+    }
+}
+```
+
+In this example, the `recursiveFunction` is used to print the countdown from a given count to 1. There's no explicit return value in the recursive case because the goal is to perform an action (printing) rather than computing a result. The base case handles the termination condition.
+
+Whether you include a return statement in the recursive case depends on what you're trying to achieve with the recursion. If the goal is to compute and return a result, you include the return statement. If it's more about performing some action or side effect, the return statement might be omitted.
+
+Backtracking is a technique often used in solving problems where you try out different possibilities and "backtrack" when you realize that your current approach cannot lead to a valid solution. In many backtracking algorithms, the return statement in the recursive case might be omitted, especially when you are exploring possibilities or making decisions but not explicitly computing a final result.
+
+The base case handles the termination condition by adding a valid permutation to the result.
+In backtracking, the absence of an explicit return in the recursive case is often seen when the goal is to explore and make decisions rather than compute a final result.
