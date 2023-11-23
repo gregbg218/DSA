@@ -128,7 +128,7 @@ In backtracking, the absence of an explicit return in the recursive case is ofte
 
 Recursion tree:<br />
 <br />
-<br />
+
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/ecef36f3-57a4-471e-8948-027336d79243)
 
@@ -140,7 +140,7 @@ Recursion tree:<br />
 ![image](https://github.com/gregbg218/DSA/assets/72642906/7fe0aee0-a05b-4d22-a4b0-9523ff29d204)
 Recursion tree:
 <br />
-<br />
+
 ![image](https://github.com/gregbg218/DSA/assets/72642906/7ad95fe0-daac-4ab3-9c21-0b38b1d0abb5)
 
 <br />
@@ -150,7 +150,7 @@ Recursion tree:
 
 Similarly for 3 call branching :
 <br />
-<br />
+
 ![image](https://github.com/gregbg218/DSA/assets/72642906/cb81ecbe-6d5b-4a16-b698-c4fb6e9ab5ef)
 
 Here time complexity is O(3^N)
