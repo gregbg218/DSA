@@ -112,28 +112,45 @@ Backtracking is a technique often used in solving problems where you try out dif
 The base case handles the termination condition by adding a valid permutation to the result.
 In backtracking, the absence of an explicit return in the recursive case is often seen when the goal is to explore and make decisions rather than compute a final result.
 
-
+<br />
+<br />
+<br />
+<br />
 
 
 
 <ins>**TIME COMPLEXITY OF RECURSION**</ins><br />
 
+
 ![image](https://github.com/gregbg218/DSA/assets/72642906/26adc629-4824-4732-a215-20e59650ca72)
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/ea469996-f145-4aed-af39-7f865c60f3d9)
 
-Recursion tree:
+Recursion tree:<br />
+<br />
+<br />
+
 ![image](https://github.com/gregbg218/DSA/assets/72642906/ecef36f3-57a4-471e-8948-027336d79243)
 
-
+<br />
+<br />
+<br />
+<br />
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/7fe0aee0-a05b-4d22-a4b0-9523ff29d204)
 Recursion tree:
+<br />
+<br />
 ![image](https://github.com/gregbg218/DSA/assets/72642906/7ad95fe0-daac-4ab3-9c21-0b38b1d0abb5)
 
-
+<br />
+<br />
+<br />
+<br />
 
 Similarly for 3 call branching :
+<br />
+<br />
 ![image](https://github.com/gregbg218/DSA/assets/72642906/cb81ecbe-6d5b-4a16-b698-c4fb6e9ab5ef)
 
 Here time complexity is O(3^N)
