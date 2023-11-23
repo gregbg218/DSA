@@ -14,3 +14,8 @@ class Solution {
         
     }
 }
+//Input: nums = [3,2,1,5,6,4], k = 2
+//Output: 5
+
+// By the time it reaches the final element of array there are k+1 or 3 of the largst element on the heap then we pop the 3rd largest and break out 
+// of loop. Then at the top of heap we have kth or 2nd largest element
