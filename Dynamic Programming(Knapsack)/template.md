@@ -146,5 +146,7 @@ Dynamic Programming (Bottom-Up): In dynamic programming, you start by solving th
 
 The key idea in dynamic programming is to store the solutions to subproblems in a table and use these solutions to avoid redundant computations. This is often referred to as the "memoization" or "bottom-up" approach. It contrasts with the more straightforward but potentially less efficient "naive" recursive approach.
 
+So DP also uses the base condition or initialization to get the final solution.
+
 
 
