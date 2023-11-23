@@ -31,7 +31,7 @@ class Solution {
             int[] element = minHeap.poll();
             int value = element[0];
             int arrayPos=element[1];
-            int source = element[2];
+            int source = element[2];   // Array number
 
 
             if (source == 1 && arrayPos+1 < nums1.length) {
@@ -54,7 +54,7 @@ class Solution {
                 }
             }
             
-            count++;
+            count++;   // to find if we have reached median
 
         }
 
