@@ -148,7 +148,9 @@ The key idea in dynamic programming is to store the solutions to subproblems in 
 
 So DP also uses the base condition or initialization to get the final solution.
 
-
+<br />
+<br />
+<br />
 
 <ins>**Some common patterns**</ins><br />
 1) Whenever there is a count problem like "Count of subsets with sum equal to X"
