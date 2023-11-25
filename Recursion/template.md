@@ -161,3 +161,14 @@ Here time complexity is O(3^N)
 
 <ins>**Parameterized vs Functional Recursion**</ins><br />
 https://medium.com/@deepakrameshs/parameterized-and-functional-recursion-finding-the-sum-of-1-to-n-in-java-and-python-a800a8127840
+
+
+
+<ins>**Common patterns in Recursion**</ins><br />
+<br />
+<br />
+<br />
+<br />
+1) When asked to find count of something eg find count of subsets equal to given sum.<br />
+![image](https://github.com/gregbg218/DSA/assets/72642906/307dbe5c-9cb7-436a-9366-87ed18029252)
+
