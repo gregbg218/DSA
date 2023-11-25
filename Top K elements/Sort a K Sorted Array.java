@@ -35,7 +35,7 @@ class Solution {
     }
 }
 
-
+// This is perhaps not a typical top k elements sum as we dont use the template formula but at the time complexity is same as them
 // K sorted array means if in a perfectly sorted array if there is an element at position "index"
 // Then in this new array the position will be in the range [index-k,index+k]
 // so index=5 and k=3 then positions of the element can be 5,6,7,8 or 4,3,2 
