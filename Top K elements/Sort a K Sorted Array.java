@@ -16,7 +16,7 @@ class Solution {
                 System.out.println(minHeap.remove());
             }
         }
-        while (!minHeap.isEmpty())
+        while (!minHeap.isEmpty())                 //  As there are still some elements remaning becos for loop only runs till i=arr.length
         {
             System.out.println(minHeap.remove());  // The output here is obtained by printing .
         }
