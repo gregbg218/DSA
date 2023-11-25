@@ -170,5 +170,8 @@ https://medium.com/@deepakrameshs/parameterized-and-functional-recursion-finding
 <br />
 <br />
 1) When asked to find count of something eg find count of subsets equal to given sum.<br />
-![image](https://github.com/gregbg218/DSA/assets/72642906/307dbe5c-9cb7-436a-9366-87ed18029252)
+![image](https://github.com/gregbg218/DSA/assets/72642906/9a944bea-b6fb-4c32-9cdf-1c0ce6783ab9)
+
+SO BASICALLY FOR THIS WE HAVE TO MAKE 2 RECURSION CALLS AND ADD THEM BUT THE BASE 
+CONDITION SHOULD EITHER RETURN 1 OR 0
 
