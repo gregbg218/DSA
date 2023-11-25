@@ -178,3 +178,8 @@ https://medium.com/@deepakrameshs/parameterized-and-functional-recursion-finding
 SO BASICALLY FOR THIS WE HAVE TO MAKE 2 RECURSION CALLS AND ADD THEM BUT THE BASE 
 CONDITION SHOULD EITHER RETURN 1 OR 0
 
+
+HOWEVER INSTEAD OF MULTIPLE RECURSION CALLS WE CAN ALSO USE A FOR LOOP
+![image](https://github.com/gregbg218/DSA/assets/72642906/47f9ab07-2519-499e-9b0a-3ce1f80ecd0f)
+
+
