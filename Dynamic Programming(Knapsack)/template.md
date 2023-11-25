@@ -3,6 +3,11 @@ https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY
 https://www.youtube.com/watch?v=fJbIuhs24zQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=4
 https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=5
 <br />
+Solve these 3 first :
+https://github.com/gregbg218/DSA/blob/main/Dynamic%20Programming(Knapsack)/0%20-%201%20Knapsack(Recursion).java
+https://github.com/gregbg218/DSA/blob/main/Dynamic%20Programming(Knapsack)/0%20-%201%20Knapsack(Memoization).java
+https://github.com/gregbg218/DSA/blob/main/Dynamic%20Programming(Knapsack)/0%20-%201%20Knapsack(Bottom-Up).java
+<br />
 <br />
 <br />
 
