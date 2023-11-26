@@ -41,8 +41,8 @@ class Solution {
             }
             
             
-            if(elementIndex+1<nums.get(listNo).size())
-            {
+            if(elementIndex+1<nums.get(listNo).size())  // If one list is over then the                                             
+            {                                           // problem is over and we break
                 int newElement = nums.get(listNo).get(elementIndex+1);
                 minHeap.add(new int[]{newElement,listNo,elementIndex+1});
 
