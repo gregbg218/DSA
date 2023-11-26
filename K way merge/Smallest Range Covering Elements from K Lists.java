@@ -56,3 +56,12 @@ class Solution {
         return res;
     }
 }
+// Basically the number k is very important .
+// When we pop from the minheap the next element is from the same list
+// so that the range is always inclusive of all 3 lists
+// as the minheap at any one time
+// only keeps track of k elements from k lists i.e there's always 1 element only 
+// from each of the k lists 
+// and from that same heap we are always fining min or max(which means we 
+// are not randomly finding min max we are only doing it in the heap as
+// only that can include all 3 elements at one time)
