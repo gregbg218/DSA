@@ -56,7 +56,8 @@ class Solution {
         return res;
     }
 }
-// Basically the number k is very important .
+// Basically the number k is very important as at every occasion
+// we have to include at least 1 point from each of the k lists
 // When we pop from the minheap the next element is from the same list
 // so that the range is always inclusive of all 3 lists
 // as the minheap at any one time
@@ -64,4 +65,4 @@ class Solution {
 // from each of the k lists 
 // and from that same heap we are always fining min or max(which means we 
 // are not randomly finding min max we are only doing it in the heap as
-// only that can include all 3 lists at one time)
+// only the min and max of that can include elements of all 3 lists at one time)
