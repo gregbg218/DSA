@@ -64,4 +64,4 @@ class Solution {
 // from each of the k lists 
 // and from that same heap we are always fining min or max(which means we 
 // are not randomly finding min max we are only doing it in the heap as
-// only that can include all 3 elements at one time)
+// only that can include all 3 lists at one time)
