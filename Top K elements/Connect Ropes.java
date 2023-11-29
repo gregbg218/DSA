@@ -20,3 +20,7 @@ public class Solution {
         return totalCost;
     }
 }
+
+
+// Basically we are adding all costs in the heap first using for loop
+// then we are taking smallest out and adding them and also putting those sums in the heap again
