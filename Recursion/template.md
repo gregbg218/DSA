@@ -1,3 +1,16 @@
+<ins>**STEPS OF RECURSION**</ins><br />
+Step 1 : <br />
+Draw a recursion tree <br />
+
+https://www.youtube.com/watch?v=kHi1DUhp9kM&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=1 <br />
+from 19:35 to 24:53<br />
+
+
+Step 2:<br />
+Write code based on tree<br />
+
+
+
 Sure, here's a simple template for a recursive function:
 
 public class RecursiveExample {
