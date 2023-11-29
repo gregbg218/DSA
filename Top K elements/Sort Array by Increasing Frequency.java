@@ -32,6 +32,7 @@ class Solution {
         }
 
         int k=arr.length-1;            // just to act as a counter for the array below
+                                       // There is no usual limit of k that we use in other top k sums
         while(maxHeap.size()!=0)
         {
             int element = maxHeap.poll();
