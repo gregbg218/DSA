@@ -19,8 +19,8 @@ class Solution {
         for(int i=0;i<nums.size();i++)
         {
             int value=nums.get(i).get(0);
-            if(value>maxVal)
-                maxVal=value;
+            if(value>maxVal)                                       //As it is a min heap we have to keep track of max value artificially 
+                maxVal=value;                                      // or manually without heap
             minHeap.add(new int[]{value,i,0});
         }
 
@@ -46,8 +46,8 @@ class Solution {
                 int newElement = nums.get(listNo).get(elementIndex+1);
                 minHeap.add(new int[]{newElement,listNo,elementIndex+1});
 
-                if(newElement>maxVal)
-                    maxVal=newElement;
+                if(newElement>maxVal)                                 //As it is a min heap we have to keep track of max value artificially
+                    maxVal=newElement;                                // or manually without heap
             }
             else
                 break;    
@@ -56,9 +56,9 @@ class Solution {
         return res;
     }
 }
-// Basically the number k is very important as at every occasion
-// we have to include at least 1 point from each of the k lists
-// When we pop from the minheap the next element is from the same list
+// The question says at least one elelemtn should be from each list so the best way to do this is to get a heap of size k(number of lists)
+// So as we have to include at least 1 point from each of the k lists
+// when we pop from the minheap the next element is from the same list
 // so that the range is always inclusive of all 3 lists
 // as the minheap at any one time
 // only keeps track of k elements from k lists i.e there's always 1 element only 
