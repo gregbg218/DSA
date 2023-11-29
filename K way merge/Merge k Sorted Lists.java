@@ -14,7 +14,7 @@ class Solution {
         PriorityQueue<ListNode> minHeap = new PriorityQueue<>(listNodeComp);
         for (int i = 0; i < lists.length; i++) {
             if (lists[i] != null) { // Check if the list is not empty
-                minHeap.add(lists[i]);
+                minHeap.add(lists[i]);           // This just adds first element of each list to the heap
             }
         }
 
