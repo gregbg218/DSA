@@ -11,6 +11,7 @@ from 11:58 to 13:20<br />
 
 It is mostly used in tree and linked list problem<br />
 <br />
+Whenever we are asked to make a choice and decision in a problem then we use this approach<br />
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/a8a70b40-deb8-4870-9ea8-4518e372eb03)<br />
 <br />
@@ -21,6 +22,7 @@ BUT WHEN WE HAVE TO PRINT FROM N TO 1 WE CAN CHANGE POSITION OF INDUCTION STEP<b
 <br />
 https://www.youtube.com/watch?v=qDJJBZAIXIw&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=4<br />
 <br />
+Whenever we are asked to reduce the input till 0 then we use this approach<br />
 
 
 <ins>**Recursion Tree(input output method)**</ins><br />
