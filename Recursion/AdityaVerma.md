@@ -14,6 +14,10 @@ from 11:58 to 13:20<br />
 THE TASK IS TO PRINT FROM 1 TO N
 <br />
 <br />
+BUT WHEN WE HAVE TO PRINT FROM N TO 1 WE CAN CHANGE POSITION OF INDUCTION STEP<br />
+<br />
+https://www.youtube.com/watch?v=qDJJBZAIXIw&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=4<br />
+<br />
 
 
 <ins>**Recursion Tree(input output method)**</ins><br />
