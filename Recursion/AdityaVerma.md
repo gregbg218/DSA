@@ -23,8 +23,12 @@ BUT WHEN WE HAVE TO PRINT FROM N TO 1 WE CAN CHANGE POSITION OF INDUCTION STEP<b
 https://www.youtube.com/watch?v=qDJJBZAIXIw&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=4<br />
 <br />
 Whenever we are asked to reduce the input till 0 then we use this approach<br />
-
-
+<br />
+<br />
+Best example to learn this method:<br />
+https://www.youtube.com/watch?v=oCcUNRMl7dA&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=8
+<br />
+<br />
 <ins>**Recursion Tree(input output method)**</ins><br />
 https://www.youtube.com/watch?v=kHi1DUhp9kM&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=1 <br />
 from 19:35 to 24:53<br /><br />
