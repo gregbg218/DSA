@@ -29,6 +29,20 @@ Best example to learn this method:<br />
 https://www.youtube.com/watch?v=oCcUNRMl7dA&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=8
 <br />
 <br />
+STEP 1 IS TO FORM THE HYPOTHESIS FOR THE FIRST 2 ITERATIONS OF RECURSION
+(ALSO FOR EVERY ITERATION WE WRITE DESIRED OUTPUT AND FOR MOVING TO THE NEXT LEVEL
+<br />
+DECREASE INPUT SIZE AND AGAIN WRITE THE DESIRED OUTPUT FOR REDUCED INPUT)
+<br />
+<br />
+STEP 2: WRITE INDUCTION PART
+THE INDUCTION CAN BE 1 LINE OR A NEW RECURSION FUNCTION ITSELF
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <ins>**Recursion Tree(input output method)**</ins><br />
 https://www.youtube.com/watch?v=kHi1DUhp9kM&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=1 <br />
 from 19:35 to 24:53<br /><br />
