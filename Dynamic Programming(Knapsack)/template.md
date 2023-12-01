@@ -169,7 +169,7 @@ We always add or sum of all the possibilities in both recursion(memo) and DP
 <br />
 <br />
 2) Whenever there is a max or min value problem like "0/1 Knapsack" then we use max<br />
-![image](https://github.com/gregbg218/DSA/assets/72642906/17d2e0fe-865f-4331-8b1b-1f74ba6b716d)
+
 ![image](https://github.com/gregbg218/DSA/assets/72642906/8a1a288f-3d17-455f-9b11-28f62048cb58)
 
 <br />
