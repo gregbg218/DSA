@@ -166,4 +166,13 @@ We always add or sum of all the possibilities in both recursion(memo) and DP
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/2d65a47a-c747-4c67-b3bd-6e16ce8aec9b)
 
+<br />
+<br />
+2) Whenever there is a max or min value problem like "0/1 Knapsack" then we use max
+![image](https://github.com/gregbg218/DSA/assets/72642906/17d2e0fe-865f-4331-8b1b-1f74ba6b716d)
+<br />
+<br />
+3) Whenever there is a problem like find if there exists a subset that matches the target sum then we use "||"(or operator)
+<br />
+<br />   
 
