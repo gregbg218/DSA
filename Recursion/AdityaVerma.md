@@ -52,5 +52,9 @@ Usually it is 1 or if(n==1)
 https://www.youtube.com/watch?v=kHi1DUhp9kM&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=1 <br />
 from 19:35 to 24:53<br /><br />
 Whenever we are asked to make a choice and decision in a problem then we use this approach<br />
+In this approach e start with empty output and full input and we keeep on going
+<br />
+until we have empty input regardless of what happens with output.<br />
+Basically we stop at the leaf node where input is empty
 <br />
 <br />
