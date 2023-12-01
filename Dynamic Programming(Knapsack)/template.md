@@ -176,5 +176,7 @@ We always add or sum of all the possibilities in both recursion(memo) and DP
 <br />
 3) Whenever there is a problem like find if there exists a subset that matches the target sum then we use "||"(or operator)
 <br />
+![image](https://github.com/gregbg218/DSA/assets/72642906/f8ad7a98-2d33-455c-a019-ec8478fca0d6)
+
 <br />   
 
