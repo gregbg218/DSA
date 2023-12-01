@@ -39,7 +39,7 @@ STEP 2: WRITE INDUCTION PART
 THE INDUCTION CAN BE 1 LINE OR A NEW RECURSION FUNCTION ITSELF
 <br />
 <br />
-STEP 3: WRITE BASE CONDITION PART
+STEP 3: WRITE BASE CONDITION PART<br />
 Here we should always think of the smallest most valid condition.<br />
 Usually it is 1 or if(n==1)
 <br />
