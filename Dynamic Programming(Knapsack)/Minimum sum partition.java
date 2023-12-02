@@ -15,7 +15,8 @@
 
 
 
-// There are going to be 2 subsets s1 and s2
+// There are going to be 2 subsets S1 and S2
+// Let s1 and s2 beth sums of S1 and S2 rsepectively
 // our goal is that s1-s2 should be minimum
 // s1 can be written as s1=Range-s2
 // Substituting in s1-s2=(Range-s2)-s2=Range-2(s2)
