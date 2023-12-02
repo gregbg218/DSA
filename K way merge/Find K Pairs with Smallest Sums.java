@@ -62,7 +62,8 @@ class Solution {
 // Basically initially we are filling heap with pairs containing 0 to k-1 indices of nums 1 and only 0 index of nums 2  
 // (nums1[i] and nums2[0] where i>=0 && i<k)
 // Then we are popping the heap one by one and adding new points with num1 index and num2 index+1 of the popped element in the heap
-
+// For adding a new pair we use a special logic: we take the nums1 and nums2 index of the popped element and then we keep nums1Index the same while 
+// we increment nums2Index by 1
 
 
 // Example:
@@ -74,6 +75,7 @@ class Solution {
 
 // 2) Main Loop:
 // It starts removing the pair with the smallest sum, which is (1, 2), and adds it to the result list.
+// (New nums1Index=old nums2Index=0 while new nums2Index= old nums2Index+1=0+1=1
 // Then, it adds a new pair with the same index from nums1 (1) and the next index from nums2 (4) to the heap.
 // The heap now has: (7, 2), (11, 2), (1, 4) with sums 9, 13, and 5.
 // Next, it removes (1, 4) from the heap, adds it to the result list, and adds a new pair (1, 6) to the heap.
