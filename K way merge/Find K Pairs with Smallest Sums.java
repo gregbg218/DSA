@@ -59,8 +59,8 @@ class Solution {
 
 // Also in the pair(u,v) u can either be from nums 1 or nums 2 similarly for v
 
-// Basically initially we are filling heap with pairs containing 0 to k-1 indices of nums 1 and only 0 index of nums 2 (nums1[i] and nums2[0] where 
-// i>=0 && i<k)
+// Basically initially we are filling heap with pairs containing 0 to k-1 indices of nums 1 and only 0 index of nums 2  
+// (nums1[i] and nums2[0] where i>=0 && i<k)
 // Then we are popping the heap one by one and adding new points with num1 index and num2 index+1 of the popped element in the heap
 
 
@@ -76,11 +76,11 @@ class Solution {
 // It starts removing the pair with the smallest sum, which is (1, 2), and adds it to the result list.
 // Then, it adds a new pair with the same index from nums1 (1) and the next index from nums2 (4) to the heap.
 // The heap now has: (7, 2), (11, 2), (1, 4) with sums 9, 13, and 5.
-// Next, it removes (1, 4) from the heap, adds it to the result list, and adds a new pair (7, 4) to the heap.
-// The heap now has: (7, 2), (11, 2), (7, 4) with sums 9, 13, and 11.
-// Finally, it removes (7, 2) from the heap, adds it to the result list, and adds a new pair (11, 4) to the heap.
-// The heap now has: (11, 2), (11, 4), (7, 4) with sums 13, 15, and 11.
+// Next, it removes (1, 4) from the heap, adds it to the result list, and adds a new pair (1, 6) to the heap.
+// The heap now has: (1, 6), (11, 2), (7, 2) with sums 7, 13, and 9.
+// Finally, it removes (1, 6) from the heap, adds it to the result list,but it cant add anything to the heap.
+// The heap now has: (11, 2),(7, 2) with sums 13, 9.
 
 // 3) Returning the Result:
-// The result list now contains the 3 smallest pairs: (1, 2), (1, 4), (7, 2), each with their respective sums.
+// The result list now contains the 3 smallest pairs: (1, 2), (1, 4), (1, 6), each with their respective sums.
 
