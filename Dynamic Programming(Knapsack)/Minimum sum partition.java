@@ -61,20 +61,6 @@ class Solution
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // There are going to be 2 subsets S1 and S2
 // Let s1 and s2 beth sums of S1 and S2 rsepectively
 // our goal is that s1-s2 should be minimum
