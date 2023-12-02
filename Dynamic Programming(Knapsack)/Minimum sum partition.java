@@ -1,4 +1,64 @@
+class Solution
+{
 
+	public int minDifference(int arr[], int n) 
+	{ 
+	    int rangeSum=0;
+	    for(int i=0;i<arr.length;i++)
+	    {
+	        rangeSum=rangeSum+arr[i];
+	    }
+	    
+	    boolean[][] dpTable = new boolean[n+1][rangeSum+1];
+    
+        for(int i=0;i<=n;i++)
+        {
+           for(int j=0;j<=rangeSum;j++)
+           {
+               if(i==0)
+                dpTable[i][j]=false;
+                
+               if(j==0)
+                dpTable[i][j]=true;
+              
+           }
+           
+        }
+       
+        for(int i=1;i<=n;i++)
+        {
+           for(int j=1;j<=rangeSum;j++)
+           {
+               
+                
+               if(arr[i-1]<=j)
+               {
+                dpTable[i][j]= dpTable[i-1][j-arr[i-1]] || dpTable[i-1][j];
+               }
+               else
+               {
+                dpTable[i][j]= dpTable[i-1][j];  
+               }
+           }
+           
+        }
+        
+        int s2=0;
+        int result=Integer.MAX_VALUE;
+        for(int i=0;i<=rangeSum/2;i++)
+        {
+            if(dpTable[n][i]==false)
+                continue;
+            int temp=rangeSum-(2*i);
+            if(temp<result)
+                result=temp;
+            
+        }
+        
+        return result;
+       
+	} 
+}
 
 
 
