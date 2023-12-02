@@ -106,9 +106,13 @@ those 2 circled variables are the only variables that dont remain constant(their
 <ins>**Conversion of recursion to iteration**</ins><br />
 [https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7](https://www.youtube.com/watch?v=ntCGbPMeqgg&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=12)
 
-from 12:34 to 17:04
+from 12:34 to 17:04<br />
+<br />
+<br />
+Another way of saying this is (example is from subset sum):<br />
+![image](https://github.com/gregbg218/DSA/assets/72642906/68d6bd41-94e6-4ead-a266-2aca4b5a4dae)<br />
 
-
+The shaded box means the answer when the sum/target sum=7 but we are pnly allowed to take 1 st element of the array or when the size of array=1<br />
 
 Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing number of elements and whether we use current element or not we have to reduce the number of elements left to use as e move ahead
 
