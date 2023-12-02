@@ -86,3 +86,6 @@ class Solution {
 // 3) Returning the Result:
 // The result list now contains the 3 smallest pairs: (1, 2), (1, 4), (1, 6), each with their respective sums.
 
+
+// Though it seems like we are adding k elements of only 1 array at first, in reality even though we begin with the k elements of array 1
+// becos of the popping of the shortest sum formed by smallest of num1 and smallest of num2 we are able top rectify this imbalance
