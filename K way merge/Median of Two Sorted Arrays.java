@@ -20,7 +20,7 @@ class Solution {
 
         if(totalSize%2==0)
         {
-            medianPos=(totalSize / 2)-1;
+            medianPos=(totalSize / 2)-1;  // This calculation is explained further down
         }
         else
         {
