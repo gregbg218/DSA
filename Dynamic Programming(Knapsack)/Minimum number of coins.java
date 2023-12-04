@@ -49,6 +49,13 @@ class Solution {
 
 //dpTable[0][0]=0; This is becos to get 0 as sum we require 0 coins
 // similarly dpTable[1][0]=0; as to get sum as 0 we need 0 coins
+// but in the other coin change problem( total number of ways  to get sum)
+// we put dpTable[0][0]=1 becos to get 0 as sum from 0 coins we have only 1 way null set
+
+
+//We are doing "1+" in 1+dpTable[i][j-coins[i-1]] becos 
+//https://www.youtube.com/watch?v=I-l6PBeERuc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=16
+// watch from 23:50
 
 
 //dpTable[i][j]=Math.min(1+dpTable[i][j-coins[i-1]],dpTable[i-1][j]); 
