@@ -46,3 +46,19 @@ class Solution {
 
 // We put -1 in Integer.MAX_VALUE-1 becos in the double for loop we are adding
 // 1 and we dont want to go over the integer limit
+
+
+//dpTable[i][j]=Math.min(1+dpTable[i][j-coins[i-1]],dpTable[i-1][j]); 
+// There are 2 kinds of ways the tabulation approach builds values for a soln
+//1) Intiitlaized 1 st row or just the i=0,j=0 element(If both of these are 0 or 
+//false we move to the next way)
+//2)1+dpTable[i][j-coins[i-1] or val[i-1]+dpTable[i][j-coins[i-1]] in case of
+// knapsack
+//The above example is of way 2
+
+// Also the movement in the table is through [j-coins[i-1]] and if(coins[i-1]<=j) 
+// in dpTable[i][j-coins[i-1]] 
+// This thing drives the solution to the initialization or base case
+// In the above example we are doing "1+" but if it doesnt result in bringing the
+// sum to 0 then it gets rejected anyways by landing on the INTEGER MAX value 
+//in 1st row. This landing is decided by [j-coins[i-1]] and if(coins[i-1]<=j)
