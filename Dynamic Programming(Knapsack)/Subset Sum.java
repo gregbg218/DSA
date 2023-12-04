@@ -38,3 +38,7 @@ class Solution{
 }
 
 }
+
+
+// Unlike the Aditya Verma video we dont need to initialise the 1st column we only need to initialize 1st row as in the double for loop
+// j in the inner loop starts from 0
