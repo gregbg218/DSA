@@ -9,7 +9,7 @@ class Solution
        {
            for(int j=0;j<=W;j++)
            {
-               if(i==0 || j==0)
+               if(i==0 || i==0 && j==0)
                 dpTable[i][j]=0;
                else if(wt[i-1]<=j)
                {
