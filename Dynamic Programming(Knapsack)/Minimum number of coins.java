@@ -47,10 +47,12 @@ class Solution {
 // We put -1 in Integer.MAX_VALUE-1 becos in the double for loop we are adding
 // 1 and we dont want to go over the integer limit
 
-//dpTable[0][0]=0; This is becos to get 0 as sum we require 0 coins
-// similarly dpTable[1][0]=0; as to get sum as 0 we need 0 coins
+//dpTable[0][0]=0 This is becos to get 0 as sum we require 0 coins
+// similarly dpTable[1][0]=0 as to get sum as 0 we need 0 coins
 // but in the other coin change problem( total number of ways  to get sum)
 // we put dpTable[0][0]=1 becos to get 0 as sum from 0 coins we have only 1 way null set
+// In this problem too we have only 1 way null set but the dp table is not asking number of ways its asking number of coins
+// So there is 1 way null set to get the sum as 0 but number of coins in null set is 0 so we put dpTable[0][0]=0  in this sum 
 
 
 //We are doing "1+" in 1+dpTable[i][j-coins[i-1]] becos 
