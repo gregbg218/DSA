@@ -47,6 +47,9 @@ class Solution {
 // We put -1 in Integer.MAX_VALUE-1 becos in the double for loop we are adding
 // 1 and we dont want to go over the integer limit
 
+//dpTable[0][0]=0; This is becos to get 0 as sum we require 0 coins
+// similarly dpTable[1][0]=0; as to get sum as 0 we need 0 coins
+
 
 //dpTable[i][j]=Math.min(1+dpTable[i][j-coins[i-1]],dpTable[i-1][j]); 
 // There are 2 kinds of ways the tabulation approach builds values for a soln
