@@ -11,7 +11,7 @@ class Solution{
                if(i==0)
                 dpTable[i][j]=false;
                 
-               if(j==0)
+               if(i==0 && j==0)
                 dpTable[i][j]=true;
               
            }
@@ -20,7 +20,7 @@ class Solution{
        
        for(int i=1;i<=n;i++)
        {
-           for(int j=1;j<=sum;j++)
+           for(int j=0;j<=sum;j++)
            {
                
                 
