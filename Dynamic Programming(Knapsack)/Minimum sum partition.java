@@ -13,7 +13,7 @@ class Solution
     
         for(int i=0;i<=n;i++)
         {
-           for(int j=0;j<=rangeSum;j++)
+           for(int j=1;j<=rangeSum;j++)
            {
                if(i==0)
                 dpTable[i][j]=false;
