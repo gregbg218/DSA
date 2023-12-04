@@ -20,7 +20,7 @@ class Solution
     {
         
         
-       if(n==0 || W==0)
+       if(n==0)
             return 0;
             
        if(memoTable[n][W]!=-1)
