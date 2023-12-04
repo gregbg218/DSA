@@ -35,3 +35,6 @@ class Solution
         return memoTable[n][W]=knapSackMemoMethod(W,wt, val,n-1,memoTable);
     }
 }
+
+// We only need n==0 as base condition in initialization no need to bother about W==0
+// becos when we have 0 elements unlike subsets we cant offer null set instead here we are dealing with values and there are n values for null sets
