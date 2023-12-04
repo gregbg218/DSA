@@ -35,6 +35,10 @@ class Solution {
         
     }
 }
+
+// as the sum is titled minimum number so just like knapsak used Math.Max here we will use Math.min
+
+
 // Integer.MAX_VALUE-1 is just a way of showing there is no solution with 0
 // coins to get any value
 // Idelally we should have put infinity there but since we dont have that facility 
