@@ -40,3 +40,9 @@ class Solution {
         
     }
 }
+
+
+// Here we are initialising not only first row but also first column unlike 
+// the knapsack sum as this time both rows and columns are strings
+// Also we have started j from 1 this time
+
