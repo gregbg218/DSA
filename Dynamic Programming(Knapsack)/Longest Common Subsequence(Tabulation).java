@@ -41,6 +41,11 @@ class Solution {
     }
 }
 
+// Note this is subsequence and not substring
+// In subsequence the common character need not be one after the other(it shouldnt be
+// continuous) whereas
+// in substring the common strings should be continuous
+
 
 // Here we are initialising not only first row but also first column unlike 
 // the knapsack sum as this time both rows and columns are strings
