@@ -34,30 +34,32 @@ class Solution {
         else
         {
             if(text1.charAt(text1Length-1)==text2.charAt(text2Length-1))
-                return memoTable[text1Length][text2Length]= 1+(
-                longestCommonSubsequenceMemo
+                return memoTable[text1Length][text2Length]= 1+
                 (
-                text1.substring(0, text1Length-1),
-                text2.substring(0, text2Length-1),
-                memoTable
-                )
+                    longestCommonSubsequenceMemo
+                    (
+                        text1.substring(0, text1Length-1),
+                        text2.substring(0, text2Length-1),
+                        memoTable
+                    )
                 );
             else
             {
                 return memoTable[text1Length][text2Length]= 
-                Math.max(
-                longestCommonSubsequenceMemo
+                Math.max
                 (
-                text1.substring(0, text1Length),
-                text2.substring(0, text2Length-1),
-                memoTable
-                ),
-                longestCommonSubsequenceMemo
-                (
-                text1.substring(0, text1Length-1),
-                text2.substring(0, text2Length),
-                memoTable
-                )
+                    longestCommonSubsequenceMemo
+                    (
+                        text1.substring(0, text1Length),
+                        text2.substring(0, text2Length-1),
+                        memoTable
+                    ),
+                    longestCommonSubsequenceMemo
+                    (
+                        text1.substring(0, text1Length-1),
+                        text2.substring(0, text2Length),
+                        memoTable
+                    )
                 );
             }
         }
