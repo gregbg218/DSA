@@ -35,3 +35,7 @@ class Solution {
 
     }
 }
+
+//Why do we do t[0][0]=1;
+//Becos When the target sum is 0 and you have an empty set (a={}), there is one way 
+//to achieve this sum, and that is by having an empty subset.
