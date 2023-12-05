@@ -28,6 +28,8 @@ b)bottom up approach  <br />
 <br />
 <br />
 <br />
+
+
 <ins>**Common instructions of all 3 aproaches**</ins><br />
 1) Think of a Base condition(recursion and memo) or initialization logic(bottom up)<br />
 2) Think of a Choice logic(recursion and memo) and main iteration logic(bottom up)<br />
@@ -161,7 +163,20 @@ So DP also uses the base condition or initialization to get the final solution.
 <br />
 <br />
 <br />
+<ins>**Initialization or base condition**</ins><br />
+Unlike aditya verma tabulation video where he initializes both i=0 row and j=0<br />
+column and in the double inner loop starts from j=1.<br />
+However we only initialize the i=0 row.<br />
+and in the double inner loop we start from j=0 so that the j=0 column <br />
+isnt empty.<br />
+This is becos if we have lets say target Sum problem and the input is <br />
+0,0,0,0(i.e. it includes zeroes) then we cant put i=1 and j=0 value as just 1 <br />
+becos there are 2 ways the empty sunbset and the 0 value itself so the answer<br />
+should be 2<br />
 
+<br />
+<br />
+<br />
 <ins>**Some common patterns**</ins><br />
 1) Whenever there is a count problem like "Count of subsets with sum equal to X"
 We always add or sum of all the possibilities in both recursion(memo) and DP
