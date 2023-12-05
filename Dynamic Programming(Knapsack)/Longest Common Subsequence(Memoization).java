@@ -2,7 +2,7 @@ class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         int text1Length=text1.length();
         int text2Length=text2.length();
-        int[][] memoTable = new int[text1Length+1][text2Length+1];  /// here we are doing n+1 which is the size but indexing will be from 0 to n similarly for W
+        int[][] memoTable = new int[text1Length+1][text2Length+1]; 
        
        for(int i=0;i<=text1Length;i++)
        {
