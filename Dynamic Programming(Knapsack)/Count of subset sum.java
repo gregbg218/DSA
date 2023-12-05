@@ -9,11 +9,9 @@ class Solution
 			t[0][i] = 0;	
 		}
             	
-       
-       		for(int i=0;i<n+1;i++)
-		{
-            		t[i][0] = 1;
-		}
+
+
+		t[0][0] = 1;
         
         	for(int i=1;i<n+1;i++)
 		{
@@ -30,3 +28,9 @@ class Solution
 	}
 	  
 };
+
+
+//Why do we do dpTable[0][0]=1;
+//Becos When the target sum is 0 and you have an empty set (a={}), there is one way 
+//to achieve this sum, and that is by having an empty subset.
+
