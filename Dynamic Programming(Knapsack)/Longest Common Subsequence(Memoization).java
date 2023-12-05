@@ -66,3 +66,10 @@ class Solution {
 
     }
 }
+
+
+// Note this is subsequence and not substring
+// In subsequence the common character need not be one after the other(it shouldnt be
+// continuous) whereas
+// in substring the common strings should be continuous
+
