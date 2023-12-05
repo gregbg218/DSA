@@ -38,7 +38,9 @@ class Solution{
 }
 
 }
-
+//Why do we do dpTable[0][0]=true;
+//Becos When the target sum is 0 and you have an empty set (a={}), there is one way 
+//to achieve this sum, and that is by having an empty subset.
 
 // Unlike the Aditya Verma video we dont need to initialise the 1st column we only need to initialize 1st row as in the double for loop
 // j in the inner loop starts from 0
