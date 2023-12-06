@@ -5,6 +5,18 @@ There are 2 ways to identify DP problem<br />
 <br />
 <br />
 
+There are also 2 major types of problems<br />
+1) Knapsack type Problem type<br />
+When given 1 or 2 arrays and a constraint capapcity or weight then it belongs to<br />
+this pattern.<br />
+
+3) Longest Common Subsequence Problem type
+Whenever given 2 strings in input and ask to find something optimum(min or max)<br /> then<br />
+question belongs to this type.<br />
+
+<br />
+<br />
+<br />
 Watch:<br />
 https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=3
 https://www.youtube.com/watch?v=fJbIuhs24zQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=4
