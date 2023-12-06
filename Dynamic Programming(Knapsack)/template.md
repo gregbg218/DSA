@@ -1,3 +1,10 @@
+There are 2 ways to identify DP problem<br />
+1) There has to be choice or multiple options for each element<br />
+2) The question should ask for optimum(min or max)<br />
+<br />
+<br />
+<br />
+
 Watch:<br />
 https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=3
 https://www.youtube.com/watch?v=fJbIuhs24zQ&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=4
