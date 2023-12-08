@@ -34,12 +34,12 @@ public class Solution {
             }
             else if(dp[i-1][j]>dp[i][j-1])
             {
-                // bf.append(str1.charAt(i-1));
+
                 i--;
             }
             else
             {
-                // bf.append(str2.charAt(j-1));
+
                 j--;
             }
         }
