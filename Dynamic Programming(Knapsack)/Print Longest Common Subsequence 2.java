@@ -1,13 +1,7 @@
-import java.util.*;
-
-class Solution {
-
-    public static String LongestSubsequenceString(String text1, String text2)
-    {
-
-
-        int text1Length=text1.length();
-        int text2Length=text2.length();
+public class Solution {
+    public static String findLCS(int text1Length, int text2Length, String text1, String text2){
+        // int text1Length=text1.length();
+        // int text2Length=text2.length();
         String[][] dp = new String[text1Length+1][text2Length+1];
 
         for(int i=0;i<=text2Length;i++)
@@ -42,18 +36,5 @@ class Solution {
         }
 
         return dp[text1Length][text2Length];
-
-    }
-
-
-    public static void main(String[] args) {
-        String X = "AGGTAB";
-        String Y = "GXTXAYB";
-        int m = X.length();
-        int n = Y.length();
-        String res=LongestSubsequenceString(X, Y);
-        System.out.println(res);
     }
 }
-
-//This whole sum is same as longest common subsequence length only it has slight modifications
