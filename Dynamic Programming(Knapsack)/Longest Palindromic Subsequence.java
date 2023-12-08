@@ -42,3 +42,5 @@ class Solution {
         
     }
 }
+
+// Same as longest subsequence except here 2nd string is reverse of first
