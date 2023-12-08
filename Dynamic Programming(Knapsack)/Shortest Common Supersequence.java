@@ -28,6 +28,4 @@ class Solution
 }
 
 
-// Also note in subsequence though there can be gaps between the characters, 
-// the order of them shouldnt change
-// example if bc can become bdc or gbac but not cab or cb
+
