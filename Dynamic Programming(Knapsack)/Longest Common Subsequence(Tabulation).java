@@ -42,7 +42,7 @@ class Solution {
 }
 
 // Note this is subsequence and not substring
-// In subsequence the common character need not be one after the other(it shouldnt be
+// In subsequence the common character need not be one after the other(it should not be
 // continuous) whereas
 // in substring the common strings should be continuous
 
@@ -50,4 +50,8 @@ class Solution {
 // Here we are initialising not only first row but also first column unlike 
 // the knapsack sum as this time both rows and columns are strings
 // Also we have started j from 1 this time
+
+// Also note in subsequence though there can be gaps between the characters, 
+// the order of them shouldnt change
+// example if bc can become bdc or gbac but not cab or cb
 
