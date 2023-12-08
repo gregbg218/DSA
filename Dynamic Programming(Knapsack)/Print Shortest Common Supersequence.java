@@ -71,7 +71,7 @@ class Solution {
 // example "bc" can become bdc or gbac but not cab or cb
 // so to preserve the order we must use the above peculiar way shown in the 
 //2 extra lines
-// see in the video 
+// see in the video from 13:00 to 14:15
 
 // Also from the last 2 while loops either while(i>0) or while(j>0) will run
 //not both as the previous loop (while(i>0 && j>0)) stops when either i or j 
