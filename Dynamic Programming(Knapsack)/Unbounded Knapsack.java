@@ -24,6 +24,10 @@ class Solution{
        return res;
     }
 }
+// Unbounded means a knapsack where we can use each given
+// item/weight infinite number of times
+// so whole bag can be full of the same items
+
 // same as 0/1 Knapsack only difference is in "val[i-1]+dpTable[i][j-wt[i-1]]"
 // we use dpTable[i] instead of dpTable[i-1] so as to allow reptition
 // if we dont want to repeat we directly go to the else condition
