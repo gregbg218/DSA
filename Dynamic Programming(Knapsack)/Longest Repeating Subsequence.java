@@ -27,8 +27,8 @@ class Solution
        {
            for(int j=1;j<=text2Length;j++)
            {
-               if(text1.charAt(i-1)==text2.charAt(j-1) && i!=j)
-                dp[i][j]= 1+dp[i-1][j-1];
+               if(text1.charAt(i-1)==text2.charAt(j-1) && i!=j) // only change is here if the index is same we dont want it otherwise same as lcs                  
+                   dp[i][j]= 1+dp[i-1][j-1];   
             else
             {
                 dp[i][j]=Math.max
