@@ -39,7 +39,11 @@ class Solution
            }
            
         }
-        
+        // Now we are one by one checking the last row of the matrix 
+	// As the last row is n elements and each subset sum that is possible with n 
+	// elements
+	// We will take that sum from the last row that gives the best minimum
+	// difference
         int s2=0;
         int result=Integer.MAX_VALUE;
         for(int i=0;i<=rangeSum/2;i++)
@@ -62,8 +66,8 @@ class Solution
 // Let s1 and s2 beth sums of S1 and S2 rsepectively
 // our goal is that s1-s2 should be minimum
 // s1 can be written as s1=Range-s2
-// Substituting in s1-s2=(Range-s2)-s2=Range-2(s2)
+// Substituting in Difference=s1-s2=(Range-s2)-s2=Range-2(s2)
 // So our goal is to find some value of s2 that can minimize Range-2(s2)
-// Only possible way is that s2<=(Range)/2
+// Only possible way is that s2<=(Range)/2  ( less than or equal to)
 // becos if s2==(Range)/2 then the difference is 0 which is also acceptable
-// but s2 shouldnt be more than (Range)/2
+// but s2 shouldnt be more than (Range)/2   
