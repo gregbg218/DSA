@@ -10,9 +10,13 @@ There are also 2 major types of problems<br />
 When given 1 or 2 arrays and a constraint capapcity or weight then it belongs to<br />
 this pattern.<br />
 
-3) Longest Common Subsequence Problem type
+2) Longest Common Subsequence Problem type
 Whenever given 2 strings in input and ask to find something optimum(min or max)<br /> then<br />
 question belongs to this type.<br />
+
+3)Matrix chain multiplication
+Whenever given a string or an array and you have to break at every k value <br /> then<br />
+<br />
 
 <br />
 <br />
