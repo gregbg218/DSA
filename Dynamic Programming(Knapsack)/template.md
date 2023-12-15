@@ -212,7 +212,7 @@ should be 2<br />
 
 C is the result matrix or product of matrices A and B<br />
 So here we are finding total number of multiplications and each element<br />
-is made of n multiplications and since there are mx[p elements we get<br />
+is made of n multiplications and since there are mxp elements we get<br />
 answer as mxnxp <br />
 
 <br />
