@@ -208,8 +208,10 @@ should be 2<br />
 arr = {40, 20, 30, 10, 30}<br />
 This array means there are 4 matrices of dimension <br />
 40x20, 20x30, 30x10, 10x30.<br />
+<br />
 So every i starts from index 1 and ends at index 4<br />
 so matrix is represented by arr[i-1]xarr[i]<br />
+<br />
 At i=1<br />
 Matrix = arr[0] x arr[1] = 40x20<br />
 
