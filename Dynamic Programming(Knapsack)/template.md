@@ -223,6 +223,7 @@ answer as mxnxp which is the cost <br />
 <br />
 Mostly we are just moving k from one place to another and finding the min cost<br />
 among all the combinations that we get from moving k<br />
+Example:<br />
 arr[] = {40, 20, 30, 10, 30}<br />
 if k is at index 2 so k=30<br />
 i is at index 1 i=20<br />
