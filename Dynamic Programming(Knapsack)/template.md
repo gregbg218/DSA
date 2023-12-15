@@ -227,20 +227,20 @@ arr[] = {40, 20, 30, 10, 30}<br />
 if k is at index 2 so k=30<br />
 i is at index 1 i=20<br />
 j is at index 4 j=30<br />
-
+<br />
 Intermediate matrix 1 (i to k):<br />
 A=40x20 and B=20x30<br />
 Result matrix = 40x30<br />
 Cost = 40x20x30<br />
 This is given by func(i to k)<br />
 
-
+<br />
 Intermediate matrix 2 (k+1 to j):<br />
 A=30x10 and B=10x30<br />
 Result matrix = 30x30<br />
 Cost = 30x10x30<br />
 This is given by func(k+1 to j)<br />
-
+<br />
 Final matrix
 A=Intermediate matrix 1 = 40x30<br />
 B=Intermediate matrix 2 = 30x30<br />
