@@ -200,6 +200,25 @@ should be 2<br />
 <br />
 <br />
 <br />
+
+
+<ins>**3rd type: Matrix Chain Multiplication**</ins><br />
+![image](https://github.com/gregbg218/DSA/assets/72642906/269d793f-7405-4621-b644-4f04c63506e7)
+
+![image](https://github.com/gregbg218/DSA/assets/72642906/623a9b6f-18eb-4983-b357-8aa48850ee1f)
+
+![image](https://github.com/gregbg218/DSA/assets/72642906/4764aad6-4598-4252-9e54-837528d07757)<br />
+
+
+C is the result matrix or product of matrices A and B<br />
+So here we are finding total number of multiplications and each element<br />
+is made of n multiplications and since there are mx[p elements we get<br />
+answer as mxnxp <br />
+
+<br />
+<br />
+<br />
+
 <ins>**Some common patterns**</ins><br />
 1) Whenever there is a count problem like "Count of subsets with sum equal to X"
 We always add or sum of all the possibilities in both recursion(memo) and DP
