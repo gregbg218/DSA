@@ -13,7 +13,8 @@ class Solution
                 dpTable[i][j]=0;
                else if(wt[i-1]<=j)
                {
-                dpTable[i][j]=Math.max(val[i-1]+dpTable[i-1][j-wt[i-1]],dpTable[i-1][j]);
+                dpTable[i][j]=Math.max(val[i-1]+dpTable[i-1][j-wt[i-1]],dpTable[i-1][j]);  // val[i-1] has ii-1 becos array usess 0 based indexing and dpTable[i-1] has i-1 becos we need 
+                                                                                           // the value of the previous subproblem/iteration/sum/value
                }
                else
                {
