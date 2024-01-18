@@ -139,7 +139,7 @@ Another way of saying this is (example is from subset sum):<br />
 
 The shaded box means the answer when the sum/target sum=7 but we are pnly allowed to take 1 st element of the array or when the size of array=1<br />
 
-Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing number of elements and whether we use current element or not we have to reduce the number of elements left to use as e move ahead
+Also t[i-1][j-wt[i-1]] or t[i-1][j] has i-1 common becos i is representing number of elements and whether we use current element or not we have to reduce the number of elements left to use as we move ahead
 
 
 <br />
