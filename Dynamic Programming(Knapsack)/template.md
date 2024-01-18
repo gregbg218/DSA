@@ -68,7 +68,7 @@ from 6:26 to 10:42<br />
 <br />
 
 
-he calls matrix t books call it dp in memoization
+he calls matrix t but usually books call it dp in memoization
 
 
 memoization and recursion
