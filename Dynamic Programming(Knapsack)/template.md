@@ -227,6 +227,8 @@ Matrix = arr[3] x arr[4] = 10x30<br />
 
 <img width="587" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/dbe5dfaa-dcb4-4844-8de1-cc6e7ec8c4d6">
 
+<img width="552" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/2d0565a5-4d6c-4ac7-9f7b-86d36f150528">
+
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/4764aad6-4598-4252-9e54-837528d07757)<br />
 
