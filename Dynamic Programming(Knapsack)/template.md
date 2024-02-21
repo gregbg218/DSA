@@ -225,13 +225,13 @@ So here we are finding total number of multiplications and each element<br />
 is made of n multiplications and since there are mxp elements we get<br />
 answer as mxnxp which is the cost <br />
 
-
+SO question is in this format:<br />
 arr = {40, 20, 30, 10, 30}<br />
 This array means there are 4 matrices of dimension <br />
 40x20, 20x30, 30x10, 10x30.<br />
 <br />
-So every i starts from index 1 and ends at index 4<br />
-so matrix is represented by arr[i-1]xarr[i]<br />
+
+so every matrix is represented by arr[i-1]xarr[i]<br />
 <br />
 At i=1<br />
 Matrix = arr[0] x arr[1] = 40x20<br />
@@ -240,14 +240,14 @@ At i=4<br />
 Matrix = arr[3] x arr[4] = 10x30<br />
 <br />
 
-So our goal is to find the order of multiplying matrices so that the cost is minimum:
-Example : A,B,C
-We can do:
-(AxB) then multiply its product P1 by C(P1xC)
-   or
-(BxC) then multiply its product P2 by A (AxP2)
+So our goal is to find the order of multiplying matrices so that the cost is minimum:<br />
+Example : 3 matrices :A,B,C<br />
+We can do:<br />
+(AxB) then multiply its product P1 by C(P1xC)<br />
+   or<br />
+(BxC) then multiply its product P2 by A (AxP2)<br />
 
-
+<br />
 <br />
 2) Main logic of matrix chain recursion <br />
 <br />
