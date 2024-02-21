@@ -289,8 +289,20 @@ tempResult= func(i to k) + func(k+1 to j) + arr[i-1]*arr[k]*arr[j]<br />
 
 <img width="832" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/f35f0813-3c6a-40f8-a97e-cebec59aff23">
 
-https://www.youtube.com/watch?v=kMK148J9qEE&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=33<br />
+
+
+<img width="239" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/c475af42-6b7a-4e1c-8df1-05035b775e9c"><br />
+Above part coressponds to this:<br />
+<img width="320" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/2a93feac-993f-4257-80af-fba60675fd19"><br />
+
+
+similarly:<br />
+<img width="308" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/be0a3c9e-6b0d-4344-8c75-0e21b89a154d"><br />
+Above part coressponds to this:<br />
+<img width="379" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/2daf0c44-a39c-4895-b4ed-5374979a0109"><br />
+
 <br />
+https://www.youtube.com/watch?v=kMK148J9qEE&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=33<br />
 watch from 30:47<br />
 <br />
 <br />
