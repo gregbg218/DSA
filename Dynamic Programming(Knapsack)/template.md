@@ -220,7 +220,6 @@ Matrix = arr[3] x arr[4] = 10x30<br />
 <br />
 ![image](https://github.com/gregbg218/DSA/assets/72642906/269d793f-7405-4621-b644-4f04c63506e7)
 
-![image](https://github.com/gregbg218/DSA/assets/72642906/623a9b6f-18eb-4983-b357-8aa48850ee1f)
 
 <img width="588" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/e3a546d5-cb5d-4c3c-8062-3a0be39d164c">
 
