@@ -222,6 +222,12 @@ Matrix = arr[3] x arr[4] = 10x30<br />
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/623a9b6f-18eb-4983-b357-8aa48850ee1f)
 
+<img width="588" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/e3a546d5-cb5d-4c3c-8062-3a0be39d164c">
+
+
+<img width="587" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/dbe5dfaa-dcb4-4844-8de1-cc6e7ec8c4d6">
+
+
 ![image](https://github.com/gregbg218/DSA/assets/72642906/4764aad6-4598-4252-9e54-837528d07757)<br />
 
 
