@@ -283,6 +283,10 @@ tempResult= func(i to k) + func(k+1 to j) + arr[i-1]*arr[k]*arr[j]<br />
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/4e8d769c-967d-49e0-910c-3ee79893d1cf)
 
+
+<img width="590" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a6e00765-f4d9-4fad-8a14-88cb0cdbed00">
+
+
 <img width="832" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/f35f0813-3c6a-40f8-a97e-cebec59aff23">
 
 https://www.youtube.com/watch?v=kMK148J9qEE&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=33<br />
