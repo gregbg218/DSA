@@ -291,9 +291,9 @@ tempResult= func(i to k) + func(k+1 to j) + arr[i-1]*arr[k]*arr[j]<br />
 <br />
 This above is an image of the code<br />
 i and j are used in 2 places:<br />
-1)for loopv
+1)for loop<br />
 2) function calls<br />
-In the code we can chiise values of i and j in 2 ways:<br />
+In the code we can choose values of i and j in 2 ways:<br />
 <img width="832" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/f35f0813-3c6a-40f8-a97e-cebec59aff23"><br />
 
 
