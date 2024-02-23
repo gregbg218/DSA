@@ -67,6 +67,7 @@ from 6:26 to 10:42<br />
 <br />
 <br />
 
+<img width="802" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/ee8c43ce-fb8a-4ef7-9969-7e9bcf366708">
 
 he calls matrix t but usually books call it dp in memoization
 
