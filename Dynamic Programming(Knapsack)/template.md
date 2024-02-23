@@ -1,4 +1,3 @@
-![image](https://github.com/gregbg218/DSA/assets/72642906/34bd8f65-6174-4633-8059-7af1dc2e2501)There are 2 ways to identify DP problem<br />
 1) There has to be choice or multiple options for each element<br />
 2) The question should ask for optimum(min or max)<br />
 <br />
@@ -67,7 +66,7 @@ from 6:26 to 10:42<br />
 <br />
 <br />
 
-<img width="501" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/e05a39c3-487c-4f2b-8f3c-5da110b48b07">
+![image](https://github.com/gregbg218/DSA/assets/72642906/74b7ec28-b487-4773-a932-d6092e8c64df)
 
 he calls matrix t but usually books call it dp in memoization<br />
 
