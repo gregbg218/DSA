@@ -1,3 +1,5 @@
+There are 2 ways to identify DP problem
+<br />
 1) There has to be choice or multiple options for each element<br />
 2) The question should ask for optimum(min or max)<br />
 <br />
