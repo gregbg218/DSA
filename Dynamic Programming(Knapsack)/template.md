@@ -1,4 +1,4 @@
-There are 2 ways to identify DP problem<br />
+![image](https://github.com/gregbg218/DSA/assets/72642906/34bd8f65-6174-4633-8059-7af1dc2e2501)There are 2 ways to identify DP problem<br />
 1) There has to be choice or multiple options for each element<br />
 2) The question should ask for optimum(min or max)<br />
 <br />
@@ -67,14 +67,14 @@ from 6:26 to 10:42<br />
 <br />
 <br />
 
-<img width="501" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/166df28b-043f-441d-9671-3b7dc6f6afdc">
+<img width="501" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/e05a39c3-487c-4f2b-8f3c-5da110b48b07">
 
-he calls matrix t but usually books call it dp in memoization
+he calls matrix t but usually books call it dp in memoization<br />
 
 
-memoization and recursion
+memoization and recursion<br />
 
-n is number of elements 
+n is number of elements <br />
 
 
 In matrix t we allocate n+1 becos we are including 0 too bt we still need exact weight and exact number of elements unlike the array which uses an index starting from 0
@@ -91,17 +91,25 @@ we can do t[n][w] and arr[n-1]
 Also weight array becomes wt[w-wt[n-1]] as it uses only n but in t[n][w] we use w as we need real weight there 
 
 
-But the base conditionor initialization stage of t[0][0] or when n=0 or w=0 is different and is done in the beginning
+But the base condition or initialization stage of t[0][0] or when n=0 or w=0 is different and is done in the beginning
 as arr[0-1] can cause problems
 
 
 
+<ins>**how matrix size is decided in memoization(same logic for bottom up):**</ins><br />
+![image](https://github.com/gregbg218/DSA/assets/72642906/539c3985-ff4a-4077-b49b-400c96da0e06)
 
 
 
+So these 2 variables have their values changing over each function call, so matrix would be made using them t[n][w].<br />
+Always make matrix from variables changing over function calls<br />
 
 
-Bottom up approach
+<br />
+<br />
+
+
+<ins>**Bottom up approach:**</ins><br />
 
 i and j is not any counter
 
