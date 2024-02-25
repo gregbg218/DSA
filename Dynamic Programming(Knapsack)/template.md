@@ -13,7 +13,18 @@ When given 1 or 2 arrays and a constraint capapcity or weight then it belongs to
 this pattern.<br />
 
 Subtypes:
-1) Whenever there is a count problem like "Count of subsets with sum equal to X"
+
+1) Whenever there is a max or min value problem like "0/1 Knapsack" then we use max<br />
+
+![image](https://github.com/gregbg218/DSA/assets/72642906/8a1a288f-3d17-455f-9b11-28f62048cb58)
+
+<br />
+<br />
+2) Whenever there is a problem like find if there exists a subset that matches the target sum then we use "||"(or operator)
+<br />
+<img width="439" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/8c4acf9c-4d1a-40ab-907d-0a7a86dcd938">
+
+3) Whenever there is a count problem like "Count of subsets with sum equal to X"
 We always add or sum of all the possibilities in both recursion(memo) and DP
 ![image](https://github.com/gregbg218/DSA/assets/72642906/5cc19411-bf9f-443c-be9b-48d5b1d36b14)
 
@@ -22,17 +33,6 @@ We always add or sum of all the possibilities in both recursion(memo) and DP
 
 <br />
 <br />
-2) Whenever there is a max or min value problem like "0/1 Knapsack" then we use max<br />
-
-![image](https://github.com/gregbg218/DSA/assets/72642906/8a1a288f-3d17-455f-9b11-28f62048cb58)
-
-<br />
-<br />
-3) Whenever there is a problem like find if there exists a subset that matches the target sum then we use "||"(or operator)
-<br />
-<img width="439" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/8c4acf9c-4d1a-40ab-907d-0a7a86dcd938">
-
-
 <br />   
 <br />
 <br />
