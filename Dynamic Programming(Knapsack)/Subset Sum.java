@@ -85,4 +85,7 @@ class Solution{
 // another way of saying this is 1 way is including (i-1)th index element or not including (i-1)th index element
 //(i-1)th index element in the above example is 10
 // when including 10 then we can subtract and if there's a remainder use the previous subproblem for getting the remainder sum/weight
-// when not including 10 then we are forced to use the previous subproblem for getting the full sum/weight 
+// when not including 10 then we are forced to use the previous subproblem for getting the full sum/weight
+
+// however note in this type of sums(dpTable[i-1][j-set[i-1]] || dpTable[i-1][j]) where the real work is done by j-set[i-1] there should be
+// a base case where the value is true like here dpTable[0][0]=true;
