@@ -32,7 +32,10 @@ We always add or sum of all the possibilities in both recursion(memo) and DP
 ![image](https://github.com/gregbg218/DSA/assets/72642906/f8ad7a98-2d33-455c-a019-ec8478fca0d6)
 
 <br />   
-
+<br />
+<br />
+<br />
+<br />
 2) Longest Common Subsequence Problem type
 Whenever given 2 strings in input and ask to find something optimum(min or max)<br /> then<br />
 question belongs to this type.<br />
