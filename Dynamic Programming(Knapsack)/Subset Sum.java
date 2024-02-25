@@ -84,4 +84,5 @@ class Solution{
 //here 4 is previous subproblem and 1 is remainder and 11 is full sum/weight
 // another way of saying this is 1 way is including (i-1)th index element or not including (i-1)th index element
 //(i-1)th index element in the above example is 10
+// when including 10 then we can subtract and if there's a remainder use the previous subproblem for getting the remainder sum/weight
 // when not including 10 then we are forced to use the previous subproblem for getting the full sum/weight 
