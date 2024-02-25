@@ -37,3 +37,5 @@ class Solution
 //Becos When the target sum is 0 and you have an empty set (a={}), there is one way 
 //to achieve this sum, and that is by having an empty subset.
 
+// this question is same as subset sum only difference is we want the number of possible ways instead of yes or no
+
