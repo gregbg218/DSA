@@ -7,7 +7,8 @@ There are 2 ways to identify DP problem
 <br />
 
 There are also 2 major types of problems<br />
-1) Knapsack type Problem type<br />
+<ins>**1) Knapsack type Problem type**</ins><br />
+
 When given 1 or 2 arrays and a constraint capapcity or weight then it belongs to<br />
 this pattern.<br />
 
@@ -36,11 +37,13 @@ We always add or sum of all the possibilities in both recursion(memo) and DP
 <br />
 <br />
 <br />
-2) Longest Common Subsequence Problem type
+
+<ins>**2) Longest Common Subsequence Problem type**</ins><br />
 Whenever given 2 strings in input and ask to find something optimum(min or max)<br /> then<br />
 question belongs to this type.<br />
 
-3)Matrix chain multiplication
+
+<ins>**3)Matrix chain multiplication**</ins><br />
 Whenever given a string or an array and you have to break at every k value <br /> then<br />
 <br />
 
