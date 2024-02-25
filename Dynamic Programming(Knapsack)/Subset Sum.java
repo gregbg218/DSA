@@ -78,7 +78,10 @@ class Solution{
 //5,10 is obtained from 4,0 OR 4,10  set[4]=10
 //5,11 is obtained from 4,1 OR 4,11  set[4]=10
 
-// notice the pattern here it is either doing it through previous subproblem and reminder weight 
-//or previous subproblem and full weight
+// notice the pattern here it is either doing it through previous subproblem and reminder sum/weight 
+//or previous subproblem and full sum/weight 
 //example: 5,11 is obtained from 4,1 OR 4,11
 //here 4 is previous subproblem and 1 is remainder and 11 is full sum/weight
+// another way of saying this is 1 way is including (i-1)th index element or not including (i-1)th index element
+//(i-1)th index element in the above example is 10
+// when not including 10 then we are forced to use the previous subproblem for getting the full sum/weight 
