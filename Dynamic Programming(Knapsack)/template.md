@@ -355,6 +355,12 @@ https://www.youtube.com/watch?v=kMK148J9qEE&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY
 watch from 30:47<br />
 <br />
 <br />
+
+Notice here in the code we have recursion but we also have a for loop for k inside:<br />
+<img width="715" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/160640cd-0a7e-4c98-b337-10569bf605a2"><br />
+So these types of problems are a bit different then the other types<br />
+<br />
+<br />
 <br />
 
 <ins>**Some common patterns**</ins><br />
