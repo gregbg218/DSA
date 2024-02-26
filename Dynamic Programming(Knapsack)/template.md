@@ -363,7 +363,8 @@ So these types of problems are a bit different then the other types<br />
 <br />
 <br />
 The base case here is :<br />
-<img width="457" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/caafed38-6449-4532-b644-81665eb30bee"><br />
+<img width="412" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/fc54d044-6521-4d56-a473-fa73bc249844">
+<br />
 
 <br />
 
