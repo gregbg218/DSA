@@ -372,7 +372,7 @@ When k=i <br />
 <img width="379" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a4c724eb-33af-4335-b0c7-a487c5183081"><br />
 so first function call func(arr,i,k) = func(arr,i,i) = 0 ( as k=i and thus for that function call j=i)<br />
 so second function call func(arr,k+1,j) = func(arr,j,j) = 0 ( as k+1=j and thus for that function call i=j)<br />
-arr[i-1]*arr[k]*arr[j]=40*20*30<br />
+arr[i-1]xarr[k]xarr[j]=40x20x30<br />
 
 Now k cant do k++ since k should be less than j(or k<=j-1)<br />
 
