@@ -363,7 +363,9 @@ So these types of problems are a bit different then the other types<br />
 <br />
 <br />
 The base case here is :<br />
-![image](https://github.com/gregbg218/DSA/assets/72642906/6f5caa88-5978-4a10-8e42-6a9a78b85a8c)<br />
+<img width="457" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/caafed38-6449-4532-b644-81665eb30bee"><br />
+
+<br />
 
 When k=i <br />
 <img width="379" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a4c724eb-33af-4335-b0c7-a487c5183081"><br />
