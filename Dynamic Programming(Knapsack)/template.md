@@ -337,7 +337,8 @@ In the code we can choose values of i and j in 2 ways:<br />
 
 
 
-<img width="239" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/c475af42-6b7a-4e1c-8df1-05035b775e9c"><br />
+![image](https://github.com/gregbg218/DSA/assets/72642906/f9616427-d0d5-4ca5-83d0-c8d3a27e4edb)
+
 Above part coressponds to this:<br />
 <img width="320" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/2a93feac-993f-4257-80af-fba60675fd19"><br />
 
