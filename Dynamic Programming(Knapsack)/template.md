@@ -333,11 +333,13 @@ i and j are used in 2 places:<br />
 1)for loop<br />
 2) function calls<br />
 In the code we can choose values of i and j in 2 ways:<br />
-<img width="832" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/f35f0813-3c6a-40f8-a97e-cebec59aff23"><br />
+
 
 
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/f9616427-d0d5-4ca5-83d0-c8d3a27e4edb)
+
+![image](https://github.com/gregbg218/DSA/assets/72642906/f8ad7a98-2d33-455c-a019-ec8478fca0d6)
 
 Above part coressponds to this:<br />
 <img width="320" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/2a93feac-993f-4257-80af-fba60675fd19"><br />
