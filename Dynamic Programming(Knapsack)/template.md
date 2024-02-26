@@ -371,10 +371,10 @@ The base case here is :<br />
 When k=i <br />
 <img width="379" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a4c724eb-33af-4335-b0c7-a487c5183081"><br />
 so first function call func(arr,i,k) = func(arr,i,i) = 0 ( as k=i and thus for that function call j=i)<br />
-so second function call func(arr,k+1,j) = func(arr,j,j) = 0 ( as k+1=j and thus for that function call i=j)<br />
-arr[i-1]xarr[k]xarr[j]=40x20x30<br />
+so second function call func(arr,k+1,j) = func(arr,j,j) = 0 ( as k+1=j and thus for that function call i=j)<br /><br />
+arr[i-1]xarr[k]xarr[j]=40x20x30<br /><br />
 
-Now k cant do k++ since k should be less than j(or k<=j-1)<br />
+Now k cant do k++ since k should be less than j(or k<=j-1)<br /><br />
 <ins>**Why k cant be equal to j**</ins><br />
 Becos if k is allowed to be equal to j then in this case when k=j :<br />
 <img width="457" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/ebf32f8e-ac0e-4bde-8567-acc6b9bf9ffe"><br />
