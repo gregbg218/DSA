@@ -359,6 +359,26 @@ watch from 30:47<br />
 Notice here in the code we have recursion but we also have a for loop for k inside:<br />
 <img width="715" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/160640cd-0a7e-4c98-b337-10569bf605a2"><br />
 So these types of problems are a bit different then the other types<br />
+
+<br />
+<br />
+The base case here is :<br />
+![image](https://github.com/gregbg218/DSA/assets/72642906/6f5caa88-5978-4a10-8e42-6a9a78b85a8c)<br />
+
+When k=i <br />
+<img width="379" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a4c724eb-33af-4335-b0c7-a487c5183081"><br />
+so first function call func(arr,i,k) = func(arr,i,i) = 0 ( as k=i and thus for that function call j=i)<br />
+so second function call func(arr,k+1,j) = func(arr,j,j) = 0 ( as k+1=j and thus for that function call i=j)<br />
+arr[i-1]*arr[k]*arr[j]=40*20*30<br />
+
+Now k cant do k++ since k should be less than j(or k<=j-1)<br />
+
+Becos if k is allowed to be equal to j then in this case when k=j :<br />
+<img width="457" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/ebf32f8e-ac0e-4bde-8567-acc6b9bf9ffe"><br />
+so first function call func(arr,i,k) = func(arr,1,4)<br />
+but second function call isnt possible as k+1 doesnt exist<br />
+
+
 <br />
 <br />
 <br />
