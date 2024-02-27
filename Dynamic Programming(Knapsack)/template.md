@@ -45,7 +45,7 @@ question belongs to this type.<br />
 
 
 <ins>**3)Matrix chain multiplication**</ins><br />
-Whenever given a string or an array and you have a variable k that divides the array/string in 2 sets and then individually processes them then it is of this type. Also note in this type there is an extra for loop which chooses the value of k <br />
+Whenever given a string or an array and you have a variable k that divides the array/string in 2 sets and then individually processes them then it is of this type. Also note in this type there is an extra for loop which chooses the value of k. Ex[lained further below<br />
 <br />
 
 <br />
@@ -394,26 +394,4 @@ So i will always start from index 1<br />
 <br />
 <br />
 <br />
-
-<ins>**Some common patterns**</ins><br />
-1) Whenever there is a count problem like "Count of subsets with sum equal to X"
-We always add or sum of all the possibilities in both recursion(memo) and DP
-![image](https://github.com/gregbg218/DSA/assets/72642906/5cc19411-bf9f-443c-be9b-48d5b1d36b14)
-
-
-![image](https://github.com/gregbg218/DSA/assets/72642906/2d65a47a-c747-4c67-b3bd-6e16ce8aec9b)
-
-<br />
-<br />
-2) Whenever there is a max or min value problem like "0/1 Knapsack" then we use max<br />
-
-![image](https://github.com/gregbg218/DSA/assets/72642906/8a1a288f-3d17-455f-9b11-28f62048cb58)
-
-<br />
-<br />
-3) Whenever there is a problem like find if there exists a subset that matches the target sum then we use "||"(or operator)
-<br />
-![image](https://github.com/gregbg218/DSA/assets/72642906/f8ad7a98-2d33-455c-a019-ec8478fca0d6)
-
-<br />   
 
