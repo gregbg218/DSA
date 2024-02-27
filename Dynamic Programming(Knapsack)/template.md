@@ -90,6 +90,7 @@ b)bottom up approach  <br />
 <br />
 <br />
 <br />
+
 <ins>**Recursion approach base condition**</ins><br />
 https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7
 
@@ -388,6 +389,7 @@ Now k cant do k++ since k should be less than j(or k<=j-1)<br /><br />
 <br />
 <br />
 <br />
+
 <ins>**how it fits the pattern**</ins><br />
 <img width="193" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a15284f0-3990-4907-a67e-4750b7a23cf7">
 For these 4 matrices 
@@ -402,6 +404,7 @@ below:
 <br />
 <br />
 <br />
+
 <ins>**Why k cant be equal to j**</ins><br />
 Becos if k is allowed to be equal to j then in this case when k=j :<br />
 <img width="457" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/ebf32f8e-ac0e-4bde-8567-acc6b9bf9ffe"><br />
