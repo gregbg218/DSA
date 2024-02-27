@@ -417,6 +417,20 @@ but second function call isnt possible as k+1 doesnt exist<br />
 Then i-1 becomes -1 so arr[i-1]xarr[k]xarr[j] will fail<br />
 So i will always start from index 1<br />
 
+<ins>**Tabulation approach for loop values of i and j**</ins><br />
+<img width="794" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a5d447a8-6c96-40cd-abd2-5fc1609e0b50"><br />
+
+Here value of i and j is different.<br />
+
+Typically it is i=1 to N-1 and j=i to N-1<br />
+but when we use this appraoch we get :<br />
+<img width="635" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/7223cfc9-8ef9-448c-82b3-b506eacc0dcf"><br />
+
+This dont know is becos the subproblem required to calculate dpTab[1][3] is dpTab[2][3] which we havent yet reached<br />
+
+So instead we do this:<br />
+<img width="254" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/c40b41c4-b41e-4c2f-8de3-8f7608558c51"><br />
+
 
 <br />
 <br />
