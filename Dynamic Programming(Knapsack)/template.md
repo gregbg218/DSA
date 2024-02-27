@@ -362,7 +362,16 @@ So these types of problems are a bit different then the other types<br />
 
 <br />
 <br />
-The base case here is :<br />
+
+<ins>**Base case**</ins><br />
+Every matrix here is :<br />
+<img width="470" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/4186d0b1-5d23-4c0b-a8a6-17ea78fb3a5b"><br />
+
+<img width="355" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/ae0b4863-0cba-4e46-b10f-2c8f03450a63"><br />
+
+So both i and j are representing matrices in this form
+<br />
+
 <img width="412" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/fc54d044-6521-4d56-a473-fa73bc249844">
 <br />
 
@@ -376,8 +385,23 @@ arr[i-1]xarr[k]xarr[j]=40x20x30<br /><br />
 
 Now k cant do k++ since k should be less than j(or k<=j-1)<br /><br />
 
+<br />
+<br />
+<br />
+<ins>**how it fits the pattern**</ins><br />
+<img width="193" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a15284f0-3990-4907-a67e-4750b7a23cf7">
+For these 4 matrices 
+We keep on shifting value of k
+<img width="418" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/a7ffe61a-d65c-4612-bd64-6a1f95fc9841">
 
 
+So the cost of multiplying the matrices for this value of k will be different from when we choose another value of k like
+below:
+
+<img width="237" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/de661e50-49c9-465a-9c6e-a5cbffba2479">
+<br />
+<br />
+<br />
 <ins>**Why k cant be equal to j**</ins><br />
 Becos if k is allowed to be equal to j then in this case when k=j :<br />
 <img width="457" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/ebf32f8e-ac0e-4bde-8567-acc6b9bf9ffe"><br />
