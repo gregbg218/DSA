@@ -388,6 +388,7 @@ but second function call isnt possible as k+1 doesnt exist<br />
 <ins>**Why i cant start from index 0**</ins><br />
 <img width="548" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/f96bcd6d-8df3-4c52-a3ee-55e202692756"><br />
 Then i-1 becomes -1 so arr[i-1]xarr[k]xarr[j] will fail<br />
+So i will always start from index 1<br />
 
 
 <br />
