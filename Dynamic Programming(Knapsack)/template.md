@@ -429,7 +429,9 @@ but when we use this appraoch we get :<br />
 This dont know is becos the subproblem required to calculate dpTab[1][3] is dpTab[2][3] which we havent yet reached<br />
 
 So instead we do this:<br />
-<img width="254" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/c40b41c4-b41e-4c2f-8de3-8f7608558c51"><br />
+<img width="484" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/01a06f67-01d7-4545-a708-133f58a8de3c">
+
+<br />
 
 
 <br />
