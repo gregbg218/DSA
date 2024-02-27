@@ -45,7 +45,7 @@ question belongs to this type.<br />
 
 
 <ins>**3)Matrix chain multiplication**</ins><br />
-Whenever given a string or an array and you have to break at every k value <br /> then<br />
+Whenever given a string or an array and you have a variable k that divides the array/string in 2 sets and then individually processes them then it is of this type. Also note in this type there is an extra for loop which chooses the value of k <br />
 <br />
 
 <br />
