@@ -375,11 +375,19 @@ so second function call func(arr,k+1,j) = func(arr,j,j) = 0 ( as k+1=j and thus 
 arr[i-1]xarr[k]xarr[j]=40x20x30<br /><br />
 
 Now k cant do k++ since k should be less than j(or k<=j-1)<br /><br />
+
+
+
 <ins>**Why k cant be equal to j**</ins><br />
 Becos if k is allowed to be equal to j then in this case when k=j :<br />
 <img width="457" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/ebf32f8e-ac0e-4bde-8567-acc6b9bf9ffe"><br />
 so first function call func(arr,i,k) = func(arr,1,4)<br />
 but second function call isnt possible as k+1 doesnt exist<br />
+<br />
+<br />
+<ins>**Why i cant start from index 0**</ins><br />
+<img width="548" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/f96bcd6d-8df3-4c52-a3ee-55e202692756"><br />
+Then i-1 becomes -1 so arr[i-1]xarr[k]xarr[j] will fail<br />
 
 
 <br />
