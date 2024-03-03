@@ -4,3 +4,5 @@
 
 
 case 2 is "Or" and case 1 is "and"
+
+In case 1 we are removing both x and y becos we have already found the solution if x and y alone were the strings available(instead of acx and cay assume there was only x and y and in case 1 we have found solution for just x and y by adding 1)
