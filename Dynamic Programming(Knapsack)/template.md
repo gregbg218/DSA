@@ -1,3 +1,6 @@
+<img width="397" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/fde9c718-bca5-496b-8f83-25358b0a525e">
+<br />
+<br />
 There are 2 ways to identify DP problem
 <br />
 1) There has to be choice or multiple options for each element<br />
