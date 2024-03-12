@@ -1,14 +1,12 @@
 class Solution {
     public int minCut(String s) 
     {
-        return findMinCuts(s,0)-1;   // -1 becos base case stops at n but not at the last letter(n-1) and since last letter alone will 
-                                     // always be a palindrome we will unecessarily add another 1 to the answer see video at 17:54
-                                     // all alternatives to this like stopping at n-1 using if(start>=n-1) as base case fail
+        return findMinCuts(s,0);
     }
 
-    public int findMinCuts(String s,int start)
+    public int findMinCuts(String s, int start)
     {
-        if(start==s.length())
+        if(start>s.length()-1 || checkPalindrome(s,start,s.length()-1))
             return 0;
 
         int ans= Integer.MAX_VALUE;
