@@ -6,8 +6,8 @@ class Solution {
 
     public int findMinCuts(String s, int start)
     {
-        if(start>s.length()-1 || checkPalindrome(s,start,s.length()-1))
-            return 0;
+        if(start>s.length()-1 || checkPalindrome(s,start,s.length()-1))// stopping at last character becos it is always a palindrome
+            return 0;                                                  // 2nd condition is checking if whole string is palindrome
 
         int ans= Integer.MAX_VALUE;
         for(int i=start;i<s.length();i++)
