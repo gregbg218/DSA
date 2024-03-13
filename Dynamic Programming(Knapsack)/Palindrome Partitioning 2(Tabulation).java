@@ -15,9 +15,9 @@ class Solution {
             return 0;
 
         
-        dp[s.length()-1]=0;
+        dp[s.length()-1]=0;                        // initialization or base condition
         
-        for(int start=s.length()-2;start>=0;start--)
+        for(int start=s.length()-2;start>=0;start--)  // s.length()-2 becos last character alone will always be a palindrome
         {
             
             int ans= Integer.MAX_VALUE;
