@@ -58,3 +58,4 @@ class Solution {
         return true;
     }
 }
+// This problem could have been done by MCM or normal partition but instead this pattern "front partition" gives better time complexity
