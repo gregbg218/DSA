@@ -46,3 +46,6 @@ class Solution {
 // third will be "aabaa" and solving remaining part
 // from all 3 subproblems we will find the smallest number of partitions for first partition
 // similarly for 2nd partition which will be 2nd subproblem we will repeat
+
+
+// This problem could have been done by MCM or normal partition but instead this pattern "front partition" gives better time complexity
