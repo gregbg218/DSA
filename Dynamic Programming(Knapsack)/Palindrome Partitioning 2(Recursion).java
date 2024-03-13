@@ -35,3 +35,12 @@ class Solution {
         return true;
     }
 }
+
+
+// Basically we are finding first palindrome and then leaving the remaining part for
+// solving later
+// example: aabaacdefghvn
+// first partition will be from "a" and solving remaining part
+// second will be "aa" and solving remaining part
+// third will be "aabaa" and solving remaining part
+// from all 3 subproblems we will find the smallest number of partitions
