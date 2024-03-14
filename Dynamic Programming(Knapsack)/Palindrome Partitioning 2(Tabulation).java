@@ -59,3 +59,16 @@ class Solution {
     }
 }
 // This problem could have been done by MCM or normal partition but instead this pattern "front partition" gives better time complexity
+
+/*RULES for converting recursion to tabulation
+
+
+	• MAKE 2 FOR LOOPS
+
+
+	• PUT EVERYTHING OUTSIDE RECURSION FOR LOOP INSIDE TABULATION OUTER FOR LOOP
+
+	• IF RECURSION FUNCTION(NOT FOR LOOP) STARTS FROM 0 TO N MAKE TABULATION OUTER FOR LOOP N TO 0 AND VICE VERSA
+
+	• CONVERT BASE CASE OF RECURSION INTO SOMETHING WITHIN INNER FOR LOOP OF TABULATION */
+
