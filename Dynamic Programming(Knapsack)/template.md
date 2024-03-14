@@ -35,6 +35,7 @@ We always add or sum of all the possibilities in both recursion(memo) and DP
 ![image](https://github.com/gregbg218/DSA/assets/72642906/2d65a47a-c747-4c67-b3bd-6e16ce8aec9b)
 
 <br />
+However we need to ensure that the base case returns either 1 or something greater than 1 for this to work
 <br />
 <br />   
 <br />
