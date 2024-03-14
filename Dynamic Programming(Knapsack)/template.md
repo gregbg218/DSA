@@ -132,12 +132,16 @@ as arr[0-1] can cause problems
 
 
 <ins>**how matrix size is decided in memoization(same logic for bottom up):**</ins><br />
+<ins>**OR**</ins><br />
+<ins>**how problem is decided to be 1D or 2D dp**</ins><br />
 ![image](https://github.com/gregbg218/DSA/assets/72642906/539c3985-ff4a-4077-b49b-400c96da0e06)
 
 
 
 So these 2 variables have their values changing over each function call, so matrix would be made using them t[n][w].<br />
 Always make matrix from variables changing over function calls<br />
+
+So based on the number of changing variables we can decide whether its 1D or 2D DP.<br />
 
 
 <br />
