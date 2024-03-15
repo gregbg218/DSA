@@ -5,7 +5,7 @@ public class Solution {
      public static int findfrogJump(int n, int heights[], int dp[]) 
     {
         dp[0]=0;
-        for(int i=1;i<heights.length;i++)  // s.length()-2 becos last character alone will always be a palindrome
+        for(int i=1;i<heights.length;i++) 
         {
 
         int jump1 =  dp[i-1]+Math.abs(heights[i]-heights[i-1]);
