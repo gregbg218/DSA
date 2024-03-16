@@ -210,6 +210,16 @@ The bottom-up approach is often favored for its memory efficiency, as it circumv
 Additionally, it can be more amenable to optimization in terms of time complexity. This strategy is commonly applied 
 in dynamic programming problems, where solutions to subproblems are leveraged to efficiently solve the overall problem.
 
+<br />
+RULES for converting recursion to tabulation<br />
+<br />
+	• MAKE 2 FOR LOOPS<br /><br />
+
+	• PUT EVERYTHING OUTSIDE THE FOR LOOP IN RECURSION SOLN INSIDE TABULATION SOLN'S OUTER FOR LOOP<br /><br />
+
+	• IF RECURSION FUNCTION(NOT FOR LOOP) STARTS FROM 0 TO N MAKE TABULATION OUTER FOR LOOP N TO 0 AND VICE VERSA<br /><br />
+
+	• CONVERT BASE CASE OF RECURSION INTO SOMETHING WITHIN INNER FOR LOOP OF TABULATION <br />
 
 <br />
 <br />
