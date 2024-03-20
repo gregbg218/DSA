@@ -1,21 +1,30 @@
-class Solution {
-   public int uniquePaths(int m, int n) {
-        
-        return findUniquePaths(m-1, n-1) ;
-    }
-
-    public int findUniquePaths(int m, int n) 
+class Solution{
+    static int knapSack(int n, int W, int val[], int wt[])
     {
-
-       if(m==0 && n==0)
-            return 1;
-        
-        if(m<0 || n<0)
-            return 0;
-
-        return findUniquePaths(m-1, n)+findUniquePaths(m, n-1); 
+        int[][] dpTable = new int[n+1][W+1];
+       
+       for(int i=0;i<=n;i++)
+       {
+           for(int j=0;j<=W;j++)
+           {
+               if(i==0)
+                dpTable[i][j]=0;
+               else if(wt[i-1]<=j)
+               {
+                dpTable[i][j]=Math.max(val[i-1]+dpTable[i][j-wt[i-1]],dpTable[i-1][j]);
+               }
+               else
+               {
+                dpTable[i][j]=dpTable[i-1][j];  
+               }
+           }
+           
+       }
+       int res=dpTable[n][W];
+       return res;
     }
 }
+
 // Unbounded means a knapsack where we can use each given
 // item/weight infinite number of times
 // so whole bag can be full of the same items
