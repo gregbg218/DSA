@@ -23,6 +23,12 @@ class Solution {
         if (dp[m][n] != -1)
             return dp[m][n];
 
-        return dp[m][n]=findUniquePaths(m-1, n,dp)+findUniquePaths(m, n-1,dp); 
+        return dp[m][n]=findUniquePaths(m-1, n,dp)+findUniquePaths(m, n-1,dp); // since we are finding total number of ways base condition
+                                                                               // should return 1 or greater
     }
 }
+
+
+
+// We are starting from end of the matrix or destination instead of the source or starting point
+// We are finding total number of ways
