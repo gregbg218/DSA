@@ -41,7 +41,7 @@ class Solution {
             }
             else
             {
-                bf.append(str2.charAt(j-1));  // This is an extra line from print longest common subsequence 1
+                bf.append(str2.charAt(j-1));  // This is an extra line from print longest common subsequence 1 and see in the video from 13:00 to 14:15
                 j--;
             }
         }
