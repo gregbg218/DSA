@@ -56,3 +56,7 @@ class Solution {
 // the order of them shouldnt change
 // example if bc can become bdc or gbac but not cab or cb
 
+
+// first row in the matrix represents what is the common letter when string 1 length is0 and string 2 length goes from 0 to string2Length
+// vice versa for 1st column
+
