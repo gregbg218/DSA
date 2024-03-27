@@ -26,6 +26,8 @@ Subtypes:
 2) Whenever there is a problem like find if there exists a subset that matches the target sum then we use "||"(or operator)
 <br />
 <img width="439" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/8c4acf9c-4d1a-40ab-907d-0a7a86dcd938">
+<br />
+However we need to ensure that the base case returns either 1 instance of true for this to work<br />
 
 3) Whenever there is a count problem like "Count of subsets with sum equal to X"
 We always add or sum of all the possibilities in both recursion(memo) and DP
