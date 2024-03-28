@@ -37,7 +37,7 @@ class Solution {
 }
 // Our task is to find minimum number of partitions such that every substring created due to the partition is a palindrome
 
-// Basically we are finding first palindrome and then leaving the remaining part for
+// Basically we are finding the first palindrome substring and then leaving the remaining part for
 // solving later
 // example: aabaacdefghvn
 // so first partition can have multiple possibilities:
