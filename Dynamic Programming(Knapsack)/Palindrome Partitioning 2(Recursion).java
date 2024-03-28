@@ -35,7 +35,7 @@ class Solution {
         return true;
     }
 }
-
+// Our task is to find minimum number of partitions such that every substring is a palindrome
 
 // Basically we are finding first palindrome and then leaving the remaining part for
 // solving later
