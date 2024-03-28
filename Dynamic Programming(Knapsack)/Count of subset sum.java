@@ -30,7 +30,7 @@ class Solution
 };
 
 
-// instead of doing Max((t[i-1][j] + t[i-1][j-arr[i-1]])) we are just doing (t[i-1][j] + t[i-1][j-arr[i-1]]); as this just accepts all possibile counts instead of finding
+// instead of doing Max((t[i-1][j],t[i-1][j-arr[i-1]])) we are just doing (t[i-1][j] + t[i-1][j-arr[i-1]]); as this just accepts all possibile counts instead of finding
 // max or min and limiting possibile sums
 
 //Why do we do dpTable[0][0]=1;
