@@ -81,4 +81,4 @@ class Solution {
 
 
 // This not an example of finding number of something like count subset sum, this is an example of unbounded knapsack 
-// only here we are finding minimum number of coins
+// only here we are finding minimum number of coins required for a sum instead of number of ways required for a sum 
