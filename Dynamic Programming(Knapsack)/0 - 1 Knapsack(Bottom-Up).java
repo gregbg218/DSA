@@ -32,3 +32,4 @@ class Solution
 
 // We only need to fill the first row(i=0) in initialization no need to bother about 1st column(j=0)
 // becos when we have 0 elements unlike subsets we cant offer null set instead here we are dealing with values and there are n values for null sets
+//dpTable[i-1][j-wt[i-1]] is selecting the item and dpTable[i-1][j] is not selecting it we are brute forcing both and finding out max
