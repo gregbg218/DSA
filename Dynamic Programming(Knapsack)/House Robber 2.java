@@ -62,7 +62,7 @@ class Solution {
 
 
 // if we take element 0 then we cant take last element and vice versa
-// so we have to take 2 separate sequences 1 with first leement and without last
-// and another with last element without first element
+// so we have to take 2 separate sequences 1st sequence with first element and without last
+// and another sequence where we take last element and dont take first element
 // so basically same as house robber 1 but instead we are doing 2 sequences and
 // taking max
