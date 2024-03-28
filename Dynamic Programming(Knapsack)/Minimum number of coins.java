@@ -78,3 +78,6 @@ class Solution {
 // In the above example we are doing "1+" but if it doesnt result in bringing the
 // sum to 0 then it gets rejected anyways by landing on the INTEGER MAX value 
 //in 1st row. This landing is decided by [j-coins[i-1]] and if(coins[i-1]<=j)
+
+
+// This not an example of finding number of something, this is an example of unbounded knapsack
