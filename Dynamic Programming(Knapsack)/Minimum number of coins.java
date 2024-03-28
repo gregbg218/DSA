@@ -53,7 +53,7 @@ class Solution {
 
 //dpTable[0][0]=0 This is becos to get 0 as sum we require 0 coins
 // similarly dpTable[1][0]=0 as to get sum as 0 we need 0 coins
-// but in the other coin change problem( total number of ways  to get sum)
+// but in the other coin change problem( coin change 2 which is same as total number of ways  to get sum  and also similar to count of subset sum)
 // we put dpTable[0][0]=1 becos to get 0 as sum from 0 coins we have only 1 way null set
 // In this problem too we have only 1 way null set but the dp table is not asking number of ways its asking number of coins
 // So there is 1 way null set to get the sum as 0 but number of coins in null set is 0 so we put dpTable[0][0]=0  in this sum 
