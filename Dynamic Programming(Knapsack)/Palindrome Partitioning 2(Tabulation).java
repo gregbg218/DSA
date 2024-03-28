@@ -58,6 +58,19 @@ class Solution {
         return true;
     }
 }
+// Our task is to find minimum number of partitions such that every substring created due to the partition is a palindrome
+
+// Basically we are finding the first palindrome substring and then leaving the remaining part for
+// solving later
+// example: aabaacdefghvn
+// so first partition can have multiple possibilities:
+// first possibility will be from "a" and solving remaining part
+// second will be "aa" and solving remaining part
+// third will be "aabaa" and solving remaining part
+// from all 3 subproblems we will find the smallest number of partitions for first partition
+// similarly for 2nd partition which will be 2nd subproblem we will repeat
+
+
 // This problem could have been done by MCM or normal partition of aditya verma but instead this pattern "front partition" gives better time complexity
 
 /*
