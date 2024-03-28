@@ -80,4 +80,5 @@ class Solution {
 //in 1st row. This landing is decided by [j-coins[i-1]] and if(coins[i-1]<=j)
 
 
-// This not an example of finding number of something, this is an example of unbounded knapsack
+// This not an example of finding number of something like count subset sum, this is an example of unbounded knapsack 
+// only here we are finding minimum number of coins
