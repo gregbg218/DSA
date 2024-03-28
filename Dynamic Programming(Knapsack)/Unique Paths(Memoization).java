@@ -14,7 +14,7 @@ class Solution {
     {
         
 
-       if(m==0 && n==0)
+       if(m==0 && n==0)   // At (0,0) 1 way to reach
             return 1;
         
         if(m<0 || n<0)
@@ -30,5 +30,6 @@ class Solution {
 
 
 
-// We are starting from end of the matrix or destination instead of the source or starting point
+// We are starting from end of the matrix or destination instead of the source or starting point and so we are in a way assuming that avaialble directions are 
+// up and left instead of down and right . Even with our assumptions the answer would be same
 // We are finding total number of ways
