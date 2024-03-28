@@ -8,11 +8,11 @@ public class Solution {
         for(int i=1;i<heights.length;i++) 
         {
 
-        int jump1 =  dp[i-1]+Math.abs(heights[i]-heights[i-1]);
+        int jump1 =  Math.abs(heights[i]-heights[i-1])+dp[i-1];  // term 1 is jump from 1 to 2 and term 2 is function for starting from 2
 
         int jump2 = Integer.MAX_VALUE;
         if(i-2>=0)
-            jump2 =  dp[i-2]+Math.abs(heights[i]-heights[i-2]);
+            jump2 =  Math.abs(heights[i]-heights[i-2])+dp[i-2];
 
         dp[i]=Math.min(jump1,jump2);
         
