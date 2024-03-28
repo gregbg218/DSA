@@ -58,7 +58,7 @@ class Solution {
         return true;
     }
 }
-// This problem could have been done by MCM or normal partition but instead this pattern "front partition" gives better time complexity
+// This problem could have been done by MCM or normal partition of aditya verma but instead this pattern "front partition" gives better time complexity
 
 /*
 RULES for converting recursion to tabulation
