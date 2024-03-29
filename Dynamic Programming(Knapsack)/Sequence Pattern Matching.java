@@ -53,3 +53,4 @@ class Solution {
 
 // Basically we are finding lcs between the 2 strings and if the lcs matches 
 // with the shorter string then we can say s is a subsequence of t
+// or checking if st2 is lcs of str 1
