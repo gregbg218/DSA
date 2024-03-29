@@ -52,4 +52,4 @@ class Solution {
 
 
 // Basically we are finding lcs between the 2 strings and if the lcs matches 
-// with the shorter string then we can say s is a susequence of t
+// with the shorter string then we can say s is a subsequence of t
