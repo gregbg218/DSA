@@ -25,7 +25,7 @@ class Solution {
                 int up=0;
                 int left=0;
 
-                if(obstacleGrid[i][j]==1)
+                if(obstacleGrid[i][j]==1)  //if landing on obstacles then the number of ways is 0
                 {
                     dp[i][j]=0;
                     continue;
@@ -36,11 +36,7 @@ class Solution {
                     dp[i][j]=1;
                     continue;
                 }
-                  
-                
-                    
-        
-              
+                                
 
                 if (i > 0)
                     up = dp[i - 1][j];
