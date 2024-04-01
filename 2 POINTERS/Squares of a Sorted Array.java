@@ -23,3 +23,8 @@ class Solution {
     }
     
 }
+
+
+//two pointers starting at both ends of the input array. At any step, whichever 
+//pointer gives us the bigger square, we add it to the result array and move to 
+//the next/previous number.
