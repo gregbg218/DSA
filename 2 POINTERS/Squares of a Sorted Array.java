@@ -4,19 +4,19 @@ class Solution {
     public int[] sortedSquares(int[] nums) {
         int left=0,right=nums.length-1;
         int[] result=new int[nums.length];
-        int counter=0;
+        int counter=nums.length - 1;
         while(left<=right)
         {
             if(Math.abs(nums[left])>Math.abs(nums[right])) {
-                result[nums.length - counter - 1] = nums[left] * nums[left];
+                result[counter] = nums[left] * nums[left];
                 left++;
             }
             else {
-                result[nums.length - counter - 1] = nums[right] * nums[right];
+                result[counter] = nums[right] * nums[right];
                 right--;
             }
 
-            counter++;
+            counter--;
         }
 
         return result;
