@@ -4,4 +4,6 @@ In problems where we deal with sorted arrays (or linked-lists) and need to find 
 certain constraints, the Two Pointers approach becomes quite useful. The set of elements could be a pair, a triplet
 or even a subarray. For example, take a look at the following problem:
 
+
+
 2 sum problem and remove duplicates
