@@ -58,3 +58,7 @@ class Solution {
 //    - Calculate `product`.
 //    - Add valid subarrays to result.
 // 4. Return result: [[2], [5], [2, 5], [3], [5, 3], [10]].
+
+
+// refer this for code
+//https://www.designgurus.io/course-play/grokking-the-coding-interview/doc/63ddad8dfcc4ca873d5fc5e5
