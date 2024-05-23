@@ -27,3 +27,6 @@ The code leverages the fact that if we move two pointers, one from the head and 
 in simple terms if pointer 2 is always k ahead of pointer 1 then when pointer 1 reaches cycle start pointer 2 will also reach the cycle start as :
 
 cycle start + k = cycle start
+
+
+and so this meeting point has to be cycle start
