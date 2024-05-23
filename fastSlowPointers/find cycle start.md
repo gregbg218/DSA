@@ -24,4 +24,6 @@
 
 The code leverages the fact that if we move two pointers, one from the head and the other from a node `cycleLength` steps ahead, they will meet at the start of the cycle. This is because the distance between the head and the start of the cycle is equal to the distance between the meeting point (where `slow` and `fast` pointers meet) and the start of the cycle.
 
-Overall, this code provides an efficient solution to find the start of a cycle in a singly linked list using Floyd's algorithm and the two-pointer approach.
+in simple terms if pointer 2 is always k ahead of pointer 1 then when pointer 1 reaches cycle start pointer 2 will also reach the cycle start as :
+
+cycle start + k = cycle start
