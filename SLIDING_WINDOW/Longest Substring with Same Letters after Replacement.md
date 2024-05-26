@@ -6,3 +6,8 @@ basically (window length-maxRepeatLetterCount) should be equal to k for a window
 
 if (windowEnd - windowStart + 1 - maxRepeatLetterCount > k
 then we shrink the window from the left as it means there's too many characters to replace
+
+
+
+
+so we just move to the right character by character and for every new character check if its the max repeating character
