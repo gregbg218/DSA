@@ -1,4 +1,4 @@
-Basically we need to find if the permutation exists as a single continuous substring
+Basically we need to find if the permutation exists as a single continuous substring(not with gaps of other letters in between)
 
 Let's go through the code step by step:
 
