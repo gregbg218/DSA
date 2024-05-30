@@ -22,22 +22,8 @@ Let's go through the code step by step:
 
 7. If no permutation of the pattern is found after iterating through all the characters of `str`, it returns `false`.
 
-There is mistake in the code providedo n the site:
-You are absolutely right. The condition if (windowEnd >= pattern.length() - 1) is not the correct way to check if the window size is equal to the length of the pattern.
-The correct condition should be:
-javaCopy codeif (windowEnd - windowStart + 1 >= pattern.length()) {
-    // shrink the window by one character
-    // ...
-}
-Here's the corrected code snippet:
-javaCopy codeif (windowEnd - windowStart + 1 >= pattern.length()) { // shrink the window by one character
-    char leftChar = str.charAt(windowStart++);
-    if (charFrequencyMap.containsKey(leftChar)) {
-        if (charFrequencyMap.get(leftChar) == 0)
-            matched--; // before putting the char back, decrement the matched count
-        // put the character back for matching
-        charFrequencyMap.put(leftChar, charFrequencyMap.get(leftChar) + 1);
-    }
-}
-The condition windowEnd - windowStart + 1 >= pattern.length() checks if the current window size is greater than or equal to the length of the pattern. This ensures that the window is shrunk only when its size becomes equal to or exceeds the pattern length.
-Thank you for pointing out the mistake. The rest of the code remains the same, and the overall logic of the sliding window technique is still valid
+
+
+
+<img width="1003" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/d3c49f03-cd8a-44d1-aa16-626ed22db06a">
+
