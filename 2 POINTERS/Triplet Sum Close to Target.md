@@ -16,13 +16,13 @@ two numbers of the triplet.
 7. If the absolute value of targetDiff is smaller than the absolute value of smallestDifference, or if they are equal but targetDiff is 
 positive (meaning we've found a sum closer to the target), it updates smallestDifference.
 
-8. If targetDiff is positive, it means we need to increase the triplet sum, so it moves the left pointer to the right.
+8. If targetDiff is positive, it means we need to increase the triplet sum, so it moves the left pointer to the right.(triplet sum < target sum)
 
-9. If targetDiff is negative, it means we need to decrease the triplet sum, so it moves the right pointer to the left.
+9. If targetDiff is negative, it means we need to decrease the triplet sum, so it moves the right pointer to the left.(triplet sum > target sum)
 
 10. The while loop continues until the left pointer crosses the right pointer.
 
-11. After the loop ends, the method returns targetSum - smallestDifference, which is the sum of the triplet closest to the target sum.
+11. After the loop ends, the method returns **targetSum - smallestDifference**, which is the sum of the triplet closest to the target sum.
 
 In essence, the approach uses the two-pointer technique to efficiently search for the triplet. By sorting the array and strategically moving 
 the pointers based on the difference between the current sum and the target sum, it narrows down the search space and finds the closest sum.
