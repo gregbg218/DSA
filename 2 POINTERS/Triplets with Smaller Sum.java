@@ -22,7 +22,7 @@ class Solution {
       if (arr[left] + arr[right] < targetSum) { // found the triplet
         
         count += right - left; // becos in ascending order so all in between will also form valid pairs
-        left++;
+        left++; 
       } else {
         right--; // we need a pair with a smaller sum
       }
@@ -54,7 +54,10 @@ class Solution {
 // the sum.
 // 
 // If the sum is less than the target, all elements between left and right form valid triplets.
-// Increment the count and move the left pointer. If the sum is greater than or equal to the target,
+// so keeping the "first" and "left" pointers fixed we get (right-left) number of pointers on the right or another way of saying this: say we get (right-left) number of pointers with "first" and "left" pointers fixed
+// Increment the count and move the left pointer.
+
+//If the sum is greater than or equal to the target,
 // move the right pointer to decrease the sum.
 // 
 // Repeat steps 3-4 for all numbers in the array. Return the total count of triplets.
