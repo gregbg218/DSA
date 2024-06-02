@@ -8,3 +8,11 @@ or even a subarray. For example, take a look at the following problem:
 
 
 2 sum problem and remove duplicates
+
+
+
+Now there can be 2 approaches :
+
+1st approach: left pointer at start and right pointer at end of array
+
+2nd approach: left and right pointers both starting at start or end
