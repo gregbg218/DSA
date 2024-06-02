@@ -14,8 +14,8 @@ class Solution {
         i++;
       } else { // the case for arr[i] == 2
         swap(arr, i, high);
-        // decrement 'high' only, after the swap the number at index 'i' could be 0, 1, 
-        //  or 2
+        // decrement 'high' pointer only
+        //  after the swap the number at index 'i' could be 0, 1, or 2
         high--;
       }
     }
@@ -46,6 +46,6 @@ class Solution {
 
 
 // Algorithm ensures:
-// - All elements before low are 0s
-// - Elements between low and i are 1s
-// - All elements after high are 2s
+// - All elements before low are 0s (elements<low )
+// - Elements between low and i are 1s  (elements>=low and elements<=high are 1)
+// - All elements after high are 2s(elements>high )
