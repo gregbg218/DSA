@@ -19,6 +19,11 @@ we could have let the for loop take care of that but we cant becos we need to ad
 wordFrequencyMap is the map for the words we require
 
 wordsSeen is the map for the words in our current window of "i"
+
+
 if (wordsSeen.get(word) > wordFrequencyMap.getOrDefault(word, 0))
+
                     break;
+
+                    
 this is for checking if the word matches the words we require
