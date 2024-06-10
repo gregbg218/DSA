@@ -21,7 +21,7 @@ class Solution {
         return maxSum;
     }
     
-//There are 2 ways of maximim paths 1 is path without split and other is path with split
+
     public int visitEveryNode(TreeNode root)
     {
            
@@ -35,11 +35,11 @@ class Solution {
         int rightMax= visitEveryNode(root.right);
         rightMax=Math.max(rightMax,0);
 
-        if(maxSum<root.val+leftMax+rightMax) // Here we compare whatever the past value is (with or without split) with respect to the new path with split
-            maxSum=root.val+leftMax+rightMax; // now if the input is just a single node tree with negative value node like [-6] then comparing it with
-                                              // maxSum gives us the value of the single node
+        if(maxSum<root.val+leftMax+rightMax) // same as diameter of binary tree only difference is here we add node value 
+            maxSum=root.val+leftMax+rightMax; 
+                                               
         
 
-        return root.val+Math.max(leftMax,rightMax); // without split
+        return root.val+Math.max(leftMax,rightMax); // same as diameter of binary tree only difference is here we add node value
     }
 }
