@@ -1,4 +1,4 @@
-<img width="1160" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/1cd3e49e-df76-450e-808b-34dd054ed948">
+
 <img width="428" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/61c7e536-b045-47bd-9d4d-5790cdc6046b">
 
 
