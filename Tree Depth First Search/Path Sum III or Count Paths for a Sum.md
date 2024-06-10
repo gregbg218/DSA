@@ -14,7 +14,7 @@ So like if target sum is 11 and we have nodes like:
 
 <img width="346" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/7d9299a0-516c-498a-b875-e34737a90101">
 
-So we have cumulative sums of 4,10,16 and 21 along the arrow shown in the diagram
+So we have cumulative sums of 4,10,16 and 21 in the hashmap along the arrow shown in the diagram(also their frequeuncy is 1 in the hash map)
 
 Then we do this:
 
