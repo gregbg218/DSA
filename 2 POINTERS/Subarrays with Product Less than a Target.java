@@ -50,7 +50,7 @@ class Solution {
 // Example:
 // Array: [2, 5, 3, 10]
 // Target: 30
-
+// Array is not sorted
 // Steps:
 // 1. Initialize `left` and `right` pointers.
 // 2. Initialize `product` = 1.
