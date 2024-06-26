@@ -43,6 +43,10 @@ class Solution {
   }
 }
 
+//We start by initializing three variables: low to 0, high to the last index of the array, and i also to 0. 
+//Low is meant to keep track of the latest position where a 0 should be placed, high is meant to keep track 
+//of the latest position where a 2 should be placed, and i is used to iterate through the array.
+
 
 
 // Algorithm ensures:
