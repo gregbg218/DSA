@@ -27,12 +27,15 @@ class Solution {
       List<Integer> tempList = new LinkedList<>();
 
       // Iterate from 'right' to 'left' and add all these subarrays to the result.
-      for (int i = right; i >= left; i--) {
+      for (int i = right; i >= left; i--) { // we start from right becos we want to add new elements individually
         // Add the current element at the beginning of the list.
         tempList.add(0, arr[i]);
 
         // Add the current subarray to the result.
-        result.add(new ArrayList<>(tempList));
+        result.add(new ArrayList<>(tempList)); // we are adding a copy becos we want to use the list for subarrays
+        //example : [3,5,6]
+        // so in 1st iteration templist will have 3 and in second it will have 3,5 and then 3,5,6 
+        // individually 5 and 6 have already been added in the previous iteration
       }
     }
 
