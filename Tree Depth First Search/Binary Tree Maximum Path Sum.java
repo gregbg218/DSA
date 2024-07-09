@@ -43,3 +43,4 @@ class Solution {
         return root.val+Math.max(leftMax,rightMax); // same as diameter of binary tree only difference is here we add node value
     }
 }
+// Another difference is we are using node values instead of height 
