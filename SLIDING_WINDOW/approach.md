@@ -2,3 +2,9 @@
 
 
 either for loop is till <S or till sum specific size of the window that is given in the question
+
+
+
+or something with a hash map for storing frequencies nad then shifting the window to the right by leaving the left most element and adding new element to the right
+![image](https://github.com/user-attachments/assets/be99c1bf-ff1f-42ff-ac7f-f84475f53330)
+
