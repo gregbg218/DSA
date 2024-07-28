@@ -1,6 +1,6 @@
 k is number of characters we are allowed to replace
 (windowEnd - windowStart + 1 - maxRepeatLetterCount )
-which is basically (window length-maxRepeatLetterCount) = number of non repeating characters
+which can be simplified as (window length-maxRepeatLetterCount) = number of non repeating characters
 
 basically (window length-maxRepeatLetterCount) should be equal to k for a window to qualify and so the largest such qualifying window is the answer
 
