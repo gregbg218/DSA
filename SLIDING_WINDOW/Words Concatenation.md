@@ -1,9 +1,10 @@
 words are of same length but different letters, also words can be in any order without overlapping
 <img width="739" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/7caa7b3a-a679-4be6-9260-4c2ec43bbb3f">
 
+find all the starting indices of substrings in the given string that are a concatenation of all the given words exactly once
 
 <img width="591" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/2735d51c-ec7a-423e-b3d6-c0efb1799d83">
- find all the starting indices of substrings in the given string that are a concatenation of all the given words exactly once
+ 
 
 
 rememebr "i" is used for finding the concatenations from every index of the array whereas "j" is only for
