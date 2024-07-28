@@ -25,5 +25,5 @@ Let's go through the code step by step:
 
 
 
-<img width="2503" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/d3c49f03-cd8a-44d1-aa16-626ed22db06a">
+<img width="1003" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/d3c49f03-cd8a-44d1-aa16-626ed22db06a">
 
