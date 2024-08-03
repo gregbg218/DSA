@@ -48,7 +48,8 @@ this is for checking if the word matches the words we require
 
 
 
-![image](https://github.com/user-attachments/assets/4d0fca15-76c6-4d32-a844-f96384c654e5)
+![image](https://github.com/user-attachments/assets/1d1afa67-035f-4765-933b-bf6ad0dba261)
+
 
 ![image](https://github.com/user-attachments/assets/b948409e-d6d3-47a1-aeab-11c85b12c532)
 
