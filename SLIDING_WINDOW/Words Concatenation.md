@@ -29,6 +29,10 @@ if (wordsSeen.get(word) > wordFrequencyMap.getOrDefault(word, 0))
                     
 this is for checking if the word matches the words we require
 
+
+
+
+
 ![image](https://github.com/user-attachments/assets/1defc64c-14f3-4d04-81f8-250d835b7135)
 
 
