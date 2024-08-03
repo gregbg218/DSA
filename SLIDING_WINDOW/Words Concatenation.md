@@ -36,7 +36,7 @@ this is for checking if the word matches the words we require
 
 
 
-example of i and j:
+<br>Example of i and j:</br>
 
 
 
