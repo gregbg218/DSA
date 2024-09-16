@@ -4,4 +4,4 @@
 
 
 
-So we have the number of nodes and we are going node by node or one by one (since nodes are integers starting from 0) 
+So we have the number of nodes and we are going node by node or one by one (since nodes are integer vlaues starting from 0) 
