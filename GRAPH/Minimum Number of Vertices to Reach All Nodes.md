@@ -2,6 +2,6 @@
 
 
 
-This is a directed graph and so reaching all nodes from 1 node isnt possible 
+This is a directed graph and so reaching all nodes from any one node isnt possible 
 
 So question is asking for minimum number of nodes that are required to reach all nodes of the graph
