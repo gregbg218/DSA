@@ -19,3 +19,4 @@ Index 3: rightSum = 28 - 11 - 6 = 11.     leftSum =11
 
 
 leftSum equals rightSum at index 3. Return 3.
+<img width="1178" alt="image" src="https://github.com/user-attachments/assets/0b1ffa70-6b7a-436b-8342-274106f2558a">
