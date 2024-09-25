@@ -65,7 +65,9 @@ Implicit Return:
 There's no explicit return statement in the dfsUtil method. It implicitly returns (void) when it has processed the current vertex and all its unvisited neighbors.
 
 While this implementation works correctly, it's sometimes clearer to have an explicit base case. If you wanted to add one, you could modify the method like this:
-javaCopyprivate void dfsUtil(int v, boolean[] visited) {
+
+
+void dfsUtil(int v, boolean[] visited) {
     if (visited[v]) {
         return;  // Explicit base case
     }
