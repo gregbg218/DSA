@@ -71,17 +71,22 @@ While this implementation works correctly, it's sometimes clearer to have an exp
     
    
     void dfsUtil(int v, boolean[] visited) {
-    if (visited[v]) {
+    if (visited[v]) 
+    {
         return;  // Explicit base case
     }
     visited[v] = true;
     System.out.print(v + " ");
     
-    for (int neighbor : adj.get(v)) {
+    for (int neighbor : adj.get(v)) 
+    {
         dfsUtil(neighbor, visited);
+        }
     }
-}
+
 
 
 But the problem with tihs explicit one is:
+
+
 <img width="514" alt="image" src="https://github.com/user-attachments/assets/38abac52-1210-45d4-a694-7147776d4ff2">
