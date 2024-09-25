@@ -51,17 +51,29 @@ In the recursive DFS implementation you've provided, there isn't an explicit bas
 
 Implicit Base Case:
 The base case is implicitly handled by the condition in the for loop:
-javaCopyfor (int neighbor : adj.get(v)) {
-    if (!visited[neighbor]) {
+
+for (int neighbor : adj.get(v)) {
+
+    if (!visited[neighbor]) 
+    {
         dfsUtil(neighbor, visited);
+        
     }
+    
 }
+
 The recursion stops for a particular path when there are no more unvisited neighbors. This happens when either:
+
 a) All neighbors of the current vertex have been visited.
+
 b) The current vertex has no neighbors.
+
 Termination Condition:
+
 The recursion terminates when all reachable vertices from the starting vertex have been visited. This is ensured by the visited array, which prevents revisiting vertices.
+
 Implicit Return:
+
 There's no explicit return statement in the dfsUtil method. It implicitly returns (void) when it has processed the current vertex and all its unvisited neighbors.
 
 While this implementation works correctly, it's sometimes clearer to have an explicit base case. If you wanted to add one, you could modify the method like this:
