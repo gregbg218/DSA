@@ -67,11 +67,13 @@ There's no explicit return statement in the dfsUtil method. It implicitly return
 While this implementation works correctly, it's sometimes clearer to have an explicit base case. If you wanted to add one, you could modify the method like this:
 
 
-void dfsUtil(int v, boolean[] visited) {
+
+    
+   
+    void dfsUtil(int v, boolean[] visited) {
     if (visited[v]) {
         return;  // Explicit base case
     }
-    
     visited[v] = true;
     System.out.print(v + " ");
     
