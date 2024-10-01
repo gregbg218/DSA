@@ -9,17 +9,8 @@ So even though C was pushed first we explore B before it .
 
 Also slight change in the code we are moving  "visited[curr] = true;" otuside of the for loop :
 
- public void DFS(int start) {
-        boolean[] visited = new boolean[vertices];
-        Stack<Integer> s = new Stack<>();
- public void DFS(int start) {
-        boolean[] visited = new boolean[vertices];
-        Stack<Integer> s = new Stack<>();
-        s.push(start);
-        visited[start] = true;
 
-        while (!s.isEmpty()) {
-         public void DFS(int start) {
+   public void DFS(int start) {
         boolean[] visited = new boolean[vertices];
         Stack<Integer> s = new Stack<>();
         s.push(start);
