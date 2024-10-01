@@ -12,7 +12,9 @@ Also slight change in the code we are moving  "visited[curr] = true;" otuside of
  public void DFS(int start) {
         boolean[] visited = new boolean[vertices];
         Stack<Integer> s = new Stack<>();
-
+ public void DFS(int start) {
+        boolean[] visited = new boolean[vertices];
+        Stack<Integer> s = new Stack<>();
         s.push(start);
         visited[start] = true;
 
