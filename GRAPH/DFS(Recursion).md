@@ -102,3 +102,16 @@ But the problem with tihs explicit one is:
 
 
 <img width="514" alt="image" src="https://github.com/user-attachments/assets/38abac52-1210-45d4-a694-7147776d4ff2">
+
+
+
+
+
+Difference between iterative nad recursive:
+
+<img width="343" alt="image" src="https://github.com/user-attachments/assets/b7003e75-78bb-433d-bb30-f0f83cd115b2">
+
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/70fd4e62-3412-4692-9cbd-58fd2b0bc630">
+
+In recursive the stack and the while loop is given by the recursion stack 
