@@ -19,6 +19,13 @@ Also slight change in the code we are moving  "visited[curr] = true;" otuside of
         visited[start] = true;
 
         while (!s.isEmpty()) {
+         public void DFS(int start) {
+        boolean[] visited = new boolean[vertices];
+        Stack<Integer> s = new Stack<>();
+        s.push(start);
+        visited[start] = true;
+
+        while (!s.isEmpty()) {
             int curr = s.pop();
             visited[curr] = true;
             System.out.print(curr + " ");
