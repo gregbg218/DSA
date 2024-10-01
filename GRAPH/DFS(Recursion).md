@@ -109,9 +109,10 @@ But the problem with tihs explicit one is:
 
 Difference between iterative nad recursive:
 
-<img width="343" alt="image" src="https://github.com/user-attachments/assets/b7003e75-78bb-433d-bb30-f0f83cd115b2">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/b7003e75-78bb-433d-bb30-f0f83cd115b2">
 
 
-<img width="329" alt="image" src="https://github.com/user-attachments/assets/70fd4e62-3412-4692-9cbd-58fd2b0bc630">
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/70fd4e62-3412-4692-9cbd-58fd2b0bc630">
 
 In recursive the stack and the while loop is given by the recursion stack 
