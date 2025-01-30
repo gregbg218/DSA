@@ -1,6 +1,18 @@
 # LOGIC:
+<img width="655" alt="image" src="https://github.com/user-attachments/assets/97547c98-11d6-48a1-abf9-68647caffdd4" />
+
+<img width="682" alt="image" src="https://github.com/user-attachments/assets/60b897fc-f499-4b81-990b-1cb0781daff8" />
+
+
+
+<img width="498" alt="image" src="https://github.com/user-attachments/assets/d9133dd2-c70b-4a05-8fde-01e9f68949fb" />
+
+
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/1f297a04-168b-4221-8f50-82c24e1dd7f1" />
+
+
+
 
 
 
