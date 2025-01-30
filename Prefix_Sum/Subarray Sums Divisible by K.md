@@ -6,6 +6,8 @@
 
 
 
+
+
 # EXPLAINATION: count += remainderCount.getOrDefault(remainder, 0);
 
 
@@ -41,6 +43,10 @@ count += remainder_count.get(remainder, 0)
 remainder_count[3] = 6  # Increment it to 6
 
 so thats why we add the whole count again and again becos new pairs are formed with each sighting
+
+
+
+
 
 
 # EXPLAINATION: remainderCount.put(0, 1);
