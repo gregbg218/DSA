@@ -9,7 +9,7 @@
 # EXPLAINATION: count += remainderCount.getOrDefault(remainder, 0);
 
 
-# Let's say at some point:
+## Let's say at some point:
 remainder_count = {3: 4}  # We've seen remainder 3 four times before
 
 # Then we get a number that gives remainder 3 again (for the 5th time):
