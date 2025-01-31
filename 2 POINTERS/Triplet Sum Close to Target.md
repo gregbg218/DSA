@@ -14,7 +14,7 @@ two numbers of the triplet.
 6. If targetDiff is zero, it means we've found a triplet with an exact sum, so we return the target sum.
 
 7. If the absolute value of targetDiff is smaller than the absolute value of smallestDifference, or if they are equal but targetDiff is 
-positive (meaning we've found a sum closer to the target), it updates smallestDifference.
+positive (meaning we've found a sum closer to the target), it updates smallestDifference. (As the question says :If there are more than one such triplet, return the sum of the triplet with the smallest sum. So positive means smaller)
 
 8. If targetDiff is positive, it means we need to increase the triplet sum, so it moves the left pointer to the right.(triplet sum < target sum)
 
