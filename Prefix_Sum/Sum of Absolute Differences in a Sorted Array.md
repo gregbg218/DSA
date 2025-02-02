@@ -19,3 +19,7 @@
 
 
 n-i-1 becos n=length of array 5 and index is using 0 based indexing so even if its the 3rd number(which means we need to remove 3 numbers ) index will be =2 so we add -1
+
+
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/7017ad74-3539-4530-9bd7-4a9c376e3409" />
+
