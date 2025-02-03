@@ -7,6 +7,8 @@
 / And this goes on till the  left is less than or equal to right
 
 Formula for size of current window = right - left + 1 
+
+/
 <img width="541" alt="image" src="https://github.com/user-attachments/assets/043e50c9-cd66-4f26-86d4-ea690b125570" />
 /
 
