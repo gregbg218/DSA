@@ -65,3 +65,13 @@ class Solution {
 
 // refer this for code
 //https://www.designgurus.io/course-play/grokking-the-coding-interview/doc/63ddad8dfcc4ca873d5fc5e5
+
+
+//how to add all possible subarrays ending at the right pointer:
+
+//Let's say our right pointer is at 3 in array [2, 5, 3] and our window is [5, 3] (left is at 5):
+
+//We start from the right pointer and work backwards to left pointer:
+
+//First add [3] (just right pointer element)
+//Then add [5, 3] (include one more element to left)
