@@ -55,8 +55,8 @@ class Solution {
 // 
 // If the sum is less than the target, all elements between left and right form valid triplets.
 // so keeping the "first" and "left" pointers fixed we get (right-left) number of pointers on the right or another way of saying this:
-//say we get (right-left) number of pointers with "first" and "left" pointers fixed
-// Increment the count and move the left pointer.
+//we get (right-left) number of pointers with "first" and "left" pointers fixed
+// next Increment the count and move the left pointer.
 
 //If the sum is greater than or equal to the target,
 // move the right pointer to decrease the sum.
