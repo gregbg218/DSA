@@ -1,3 +1,7 @@
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/c9546927-4247-466c-91ed-cce8e6baa70e" />
+
+
+
 k is number of characters we are allowed to replace
 (windowEnd - windowStart + 1 - maxRepeatLetterCount )
 which can be simplified as (window length-maxRepeatLetterCount) = number of non repeating characters
