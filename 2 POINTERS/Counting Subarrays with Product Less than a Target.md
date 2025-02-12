@@ -10,7 +10,7 @@ Formula for size of current window = right - left + 1
 
 /
 <img width="541" alt="image" src="https://github.com/user-attachments/assets/043e50c9-cd66-4f26-86d4-ea690b125570" />
-/
-
 /Why is it +1 in right - left + 1 because:
+
+/
 <img width="356" alt="image" src="https://github.com/user-attachments/assets/48e4594f-393a-423b-9b02-cba835f8f1f8" />
