@@ -1,4 +1,4 @@
-
+Just keep on moving i other pointers dont move instead wait for i
 <img width="309" alt="image" src="https://github.com/user-attachments/assets/6a0fccba-2347-40ae-92c6-54355d091ba0" />/
 
 
