@@ -4,6 +4,11 @@
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/45fd0f10-9d02-43cc-9a45-76955e79251b)
 
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/6147e9ac-cf58-4790-bb55-4cd8618fbb34" />
+
+
+<img width="305" alt="image" src="https://github.com/user-attachments/assets/a9126aa8-5a6f-4dea-96c6-a9d93bd56001" />
+
 
 
 ![image](https://github.com/gregbg218/DSA/assets/72642906/8090b522-3cc8-4777-96bd-0974d43fa3a0)
