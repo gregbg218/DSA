@@ -17,3 +17,9 @@ also all the numbers used here in the example are the indices that we move to
 
 
 
+<img width="716" alt="image" src="https://github.com/user-attachments/assets/b448851f-5edb-4842-9459-6c3dbe67c11a" />
+
+
+Also note we have to repeat the same for each element in the array:
+
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/b453bcec-ba94-4af7-850d-89fbd5f7e0b1" />
