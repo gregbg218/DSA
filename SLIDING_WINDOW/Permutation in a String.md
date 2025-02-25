@@ -1,4 +1,5 @@
 Basically we need to find if the permutation exists as a single continuous substring(not with gaps of other letters in between)
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/f348cff6-3cef-4590-9cac-bdda80e2321e" />
 
 Let's go through the code step by step:
 
