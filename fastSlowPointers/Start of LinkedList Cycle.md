@@ -12,3 +12,9 @@ Since fast pointer travels double the distance covered by slow
 
 So nC-K is the number of cycles travelled minus the distance of the meeting point from the start
 (K is the distance of the meeting point from the start)
+
+
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/0a1988c6-9035-4b98-a96d-59262e46b370" />
+
+
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/aa9a0fed-cd05-4328-b7a5-8043c10e7ed2" />
