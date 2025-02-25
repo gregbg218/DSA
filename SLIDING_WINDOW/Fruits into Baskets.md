@@ -1,6 +1,8 @@
 Basically the problem says u have 2 baskets , 1 basket can contain only 1 type of fruit and any number of fruits of that type 
 
-Our goal is to fill the 2 baskets with maximum fruits
+We can start from any index but we cant skip we need to go in sequence no matter what start index u choose
+
+Our goal is to fill the 2 baskets with maximum fruits and so we need to accordingly choose the starting index that gives us that 
 
 ![image](https://github.com/user-attachments/assets/9c5920b7-cc89-48bd-8e8a-f2e115362dfa)
 
