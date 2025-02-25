@@ -7,3 +7,7 @@
 
 
 if(oddFound) gets executed only once and it only checks if odd frequency character exists or not, it doesnt bother with any specific odd freq character
+
+
+
+The logic for odd is because of the fact that we need the longest palindrome possible and we can not take all occcurences of the odd frequency character in that so we have to make it even
