@@ -5,6 +5,7 @@ find all the starting indices of substrings in the given string that are a conca
 
 <img width="591" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/2735d51c-ec7a-423e-b3d6-c0efb1799d83">
  
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/4efdc1f4-4952-4e06-b0e5-c2f3fa46eb4a" />
 
 
 rememebr "i" is used for finding the concatenations from every index of the array whereas "j" is only for
