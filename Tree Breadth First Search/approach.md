@@ -8,7 +8,8 @@ Just keep on doing basic BFS sometimes with keeping track of the level length li
 
 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/19ebdea1-b3a3-4222-b4ee-4b8344780273" />
-Justl ike N is the number of nodes in array similarly N is number of nodes in tree
+
+Just like N is the number of nodes in array similarly N is number of nodes in tree
 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/db5ea61a-8a21-4daf-a4ee-edf5cfffc662" />
 
