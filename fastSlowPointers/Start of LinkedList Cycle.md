@@ -1,3 +1,5 @@
+This is solution 2 of the grokking course
+
 Go with fast and slow approach
 
 Slow moves 1 and fastmoves 2 
