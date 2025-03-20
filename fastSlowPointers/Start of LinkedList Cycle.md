@@ -29,3 +29,12 @@ So nC-K is the number of cycles travelled minus the distance of the meeting poin
 
 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/aa9a0fed-cd05-4328-b7a5-8043c10e7ed2" />
+
+
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/7b7b572d-1f89-4a0e-a0bb-75f4494a5143" />
+
+NC-K means :
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/cb6b8027-003b-4bf9-bdea-23405e667830" />
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/4e4806ff-a816-4834-a291-e5f4cabc8be4" />
+
+Even though in 2nd example u are unnecessarily doing extra cycles we still are able to stop when slow and fast meet again
