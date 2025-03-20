@@ -1,4 +1,8 @@
+Go with fast and slow approach
 
+Slow moves 1 and fastmoves 2 
+
+Let both meet 
 
 
 Since fast pointer travels double the distance covered by slow 
