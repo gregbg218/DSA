@@ -9,6 +9,9 @@ Let both meet
 
 Since fast pointer travels double the distance covered by slow 
 
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/e387d67d-d0ca-479c-8f7e-fd3aa17d186f" />
+
+
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/ad017d81-8feb-431d-bf18-0ce77431a372" />
 
 K is some distance into the cycle starting from the cycle start
