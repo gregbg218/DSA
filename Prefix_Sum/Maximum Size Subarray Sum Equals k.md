@@ -32,4 +32,4 @@ At index 2:
  2 number including index 1 and index 2 so 2+3=5
 
 
- Because cumSum is till i for our second case we do  i - cumMap[cumSum - k] to get index
+ Because cumSum is till index i so for our second case we do  i - cumMap[cumSum - k] to get index
