@@ -1,3 +1,4 @@
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/a1b05235-9b7a-4a8b-a343-503d6a5c5f80" />
 
 The hashmap here has following format
 
