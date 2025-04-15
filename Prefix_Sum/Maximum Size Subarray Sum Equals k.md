@@ -5,9 +5,10 @@ Key = cumulative sum
 
 Value= Index
 
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/ebdecd47-143b-4e1f-b6be-bf712c67a568" />
 
-
-<img width="712" alt="image" src="https://github.com/user-attachments/assets/5d83f124-bdd1-4818-a466-03ba60dff46b">
+So there are 2 ways of finidng our k in the array:
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/5d83f124-bdd1-4818-a466-03ba60dff46b">
 
 
 
