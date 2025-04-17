@@ -1,3 +1,7 @@
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/9e33fe8d-1027-48de-b72a-9f3ff5a4d331" />
+Whereas prefix sum is also smae just that it needs some aggreate of that subarray 
+
+
 <img width="602" alt="image" src="https://github.com/gregbg218/DSA/assets/72642906/7b69fa4e-16de-49d2-ae58-281c05015e7b">
 
 
